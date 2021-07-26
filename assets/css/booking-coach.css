@@ -1,0 +1,86 @@
+.booking-coach__item {
+    display: flex;
+    margin-top: 30px;
+}
+
+.booking-coach__item-img {
+    max-width: 440px;
+}
+
+.booking-coach__item-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 0px 20px 20px 0px;
+    padding: 0px 50px 0 0
+}
+
+.booking-coach__item-description {
+    max-width: 350px;
+    padding: 19px 20px 0;
+}
+
+.booking-coach__item-description-title {
+    margin-bottom: 18px;
+}
+
+.booking-coach__item-price {
+    padding: 30px 0 0 0;
+}
+
+
+
+/*   MEDIA   */
+
+/* 1200px */
+@media screen and (max-width: 1200px) {
+
+    .booking-coach__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .booking-coach__item {
+        flex-direction: column;
+        max-width: 350px;
+        min-height: 650px;
+        margin: 30px 20px 0;
+    }
+
+    .booking-coach__item-img img {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .booking-coach__item-info {
+        border-radius: 0px 0px 20px 20px;
+        flex-direction: column;
+        padding: 0 0 20px 0;
+    }
+
+    .booking-coach__item-description {
+        max-width: 95%;
+    }
+}
+
+/* 992px */
+@media screen and (max-width: 992px) {
+    .booking-coach__item {
+        margin: 30px 10px 0;
+    }
+}
+
+/* 576px */
+@media screen and (max-width: 576px) {
+    .booking-coach__item {
+        margin: 10px 0 0;
+    }
+
+    .section__booking-coach_coachs .booking-coach__item-price {
+        padding-top: 0;
+    }
+
+    .section__booking-coach_coachs .coaching-offers__tab-item-subtitle .coaching-offers__tab-item-subtitle_bold {
+        font-weight: 400;
+    }
+}

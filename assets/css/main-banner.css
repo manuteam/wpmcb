@@ -1,0 +1,119 @@
+.section__main-banner {
+    padding: 0;
+}
+
+.main-banner__container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: unset;
+}
+
+.main-banner__content-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 485px;
+    padding: 20px 10px;
+}
+
+.main-banner__bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.main-banner__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #ffffff;
+    text-shadow: 0 0 6px #00000071;
+    margin-bottom: 25px;
+}
+
+.main-banner__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+    min-height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px #0000000D;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.main-banner__button:hover {
+    background-color: #efefef;
+}
+
+.main-banner__button:active {
+    background-color: #f1e0e0;
+}
+
+.main-banner__button-text {
+    font-family: 'Maax', 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--accent-color);
+    margin-right: 5px;
+}
+
+.main-banner__icon {
+    height: 14px;
+    width: auto;
+}
+
+/* MEDIA */
+
+/*   1200px   */
+@media screen and (max-width: 1200px) {
+
+}
+
+/* 992px */
+@media screen and (max-width: 992px) {
+
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+    .main-banner__content-wrap {
+        min-height: unset;
+        height: 332px;
+    }
+
+    .main-banner__title {
+        font-size: 16px;
+        line-height: 19px;
+        font-style: italic;
+    }
+}
+
+/* 576px */
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (width: 375px) {
+    .main-banner__title_home {
+        margin-bottom: 15px;
+    }
+
+    .main-banner__content-wrap {
+        padding-bottom: 68px;
+        justify-content: flex-end;
+    }
+}
+/*=======*/

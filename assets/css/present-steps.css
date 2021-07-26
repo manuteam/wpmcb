@@ -1,0 +1,288 @@
+.present-steps__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.present-steps__title {
+    width: 100%;
+}
+
+.present-steps__img-wrap-picture {
+    max-width: 645px;
+}
+
+img.present-steps__img-wrap {
+    border-radius: 20px;
+}
+
+.present-steps__img-wrap_home-masterclass {
+    max-width: 660px;
+    width: 100%;
+    /*min-height: 400px;*/
+}
+
+.present-steps__description {
+    max-width: 406px;
+    margin-top: 20px;
+}
+
+.present-steps__description_home-masterclass {
+    max-width: 300px;
+}
+
+.present-steps__info {
+    margin-bottom: 22px;
+}
+
+.present-steps__info-description {
+    font-family: 'Maax', 'Montserrat', sans-serif;
+}
+
+.present-steps__info-description:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.present-steps__info-description_bold {
+    font-weight: 500;
+}
+
+.present-steps__info-description_accent {
+    color: var(--accent-color);
+}
+
+.present-steps__list {
+    padding: 20px 30px 30px;
+    background: var(--bg-white-color);
+    border-radius: 20px;
+    min-height: 269px;
+    font-family: 'Maax', 'Montserrat', sans-serif;
+}
+
+.present-steps__list ol {
+    list-style: none;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.present-steps__item {
+    position: relative;
+}
+
+.present-steps__item:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.present-steps__item-number {
+    margin-right: 15px;
+    background: var(--bg-gray-color);
+    text-align: center;
+    position: absolute;
+    padding: 6px 12px;
+    border-radius: 50%;
+    top: -4px;
+    left: -45px;
+    color: var(--button-accent-orange);
+    font-weight: bold;
+    font: bold;
+    font-family: 'Maax';
+}
+
+/*  tutos-blog   */
+
+.areas__categories {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.areas__category-row {
+    display: flex;
+    max-width: 370px;
+    margin-top: 15px;
+}
+/*  /tutos-blog  */
+
+/*  home   */
+
+.present-steps__img-wrap_home {
+    height: 565px;
+    max-width: 682px;
+}
+
+.present-steps__img-wrap_home_img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.present-steps__description_home {
+    max-width: 352px;
+}
+/*  /home  */
+
+
+
+/*   MEDIA   */
+
+/* 1200px */
+@media screen and (max-width: 1200px) {
+    .present-steps__wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .present-steps__title {
+        /*padding-top: 30px;*/
+    }
+
+    .present-steps__description {
+        max-width: 660px;
+    }
+
+    .present-steps__img-wrap_home-masterclass_areas {
+        max-width: 625px;
+    }
+
+    .section__present-steps_home-bottom .present-steps__img-wrap_home {
+        margin-top: 30px;
+    }
+}
+
+/* 992px */
+@media screen and (max-width: 992px) {
+    .present-steps__img-wrap,
+    .present-steps__img-wrap-picture {
+        order: -1;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .present-steps__img-wrap_home-masterclass {
+        margin-bottom: 30px;
+    }
+
+    .present-steps__title_home-masterclass {
+        order: -1;
+    }
+
+    .areas__categories {
+         margin-left: 0;
+        align-items: center;
+    }
+
+    .present-steps__img-wrap_home {
+        height: auto;
+    }
+
+    .section__present-steps_home-bottom .present-steps__img-wrap_home {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .section__present-steps{
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .section__present-steps .container {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .present-steps__img-wrap,
+    img.present-steps__img-wrap {
+         border-radius: 0;
+    }
+
+    .present-steps__title,
+    .present-steps__description
+    {
+        margin: 0 15px 30px;
+    }
+
+    .section__present-steps_home {
+        padding: 30px 0;
+    }
+
+    .section__present-steps_home-bottom .section__title,
+    .section__present-steps_home-bottom .present-steps__img-wrap-picture {
+        display: none;
+    }
+}
+
+@media screen and (width: 375px) {
+    .present-steps__list ol,
+    .present-steps__description_tutos-blog {
+        margin-bottom: 0;
+    }
+
+    .present-steps__img-wrap_home-masterclass_img {
+        width: 100%;
+        height: 332px;
+    }
+
+    .present-steps__img-wrap_home-masterclass_img-areas {
+        height: 142px;
+    }
+
+    .present-steps__description {
+        margin: 0 30px 20px;
+    }
+
+    .present-steps__info {
+        margin-bottom: 35px;
+    }
+
+    .present-steps__list {
+        padding: 30px 18px 35px 30px;
+    }
+
+    .button-accent_orange-about-coaching-template-job,
+    .button-accent_orange-about-coaching-coachs {
+        margin-top: 15px;
+    }
+
+    .section__present-steps_template-job {
+        padding-bottom: 5px;
+    }
+
+    .section__present-steps_home {
+        padding-bottom: 0;
+    }
+
+    .present-steps__info_tutos-blog,
+    .present-steps__info_home {
+        margin-bottom: 30px;
+    }
+
+    .present-steps__title_home {
+        margin: 0 30px 30px;
+    }
+
+    .present-steps__description_home {
+        margin: 0 35px;
+    }
+
+    .section__present-steps_home-bottom .present-steps__info {
+        margin-bottom: 25px;
+    }
+
+    .section__present-steps_home-bottom,
+    .section__present-steps_coachs {
+        padding-bottom: 10px;
+    }
+
+    .section__present-steps_home-bottom .present-steps__description {
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+
+    .section__about-coaching_home .coaching-offers__tab-item-subtitle_bold {
+        font-weight: 400;
+    }
+}
+
+

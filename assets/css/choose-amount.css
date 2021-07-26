@@ -1,0 +1,347 @@
+.choose-amount__wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.are-u-ready__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--accent-color);
+    margin-bottom: 35px;
+}
+
+/*   Item left   */
+.coaching-offers__tab-items-wrap {
+    position: relative;
+    margin-bottom: 25px;
+    max-width: 785px;
+}
+
+.coaching-offers__tab-item-wrap {
+    max-width: 350px;
+    min-height: 600px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.coaching-offers__tab-item-wrap:not(:first-child) {
+    display: none;
+}
+
+.coaching-offers__tab-item-image-wrap {
+    position: relative;
+    width: 100%;
+    height: 217px;
+    overflow: hidden;
+}
+
+.coaching-offers__tab-item-image {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.coaching-offers__tab-item-content {
+    padding: 20px 21px;
+    font-family: 'Maax', 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--dark-gray);
+}
+
+.coaching-offers__tab-item-title {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.coaching-offers__tab-item-title:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    width: 23px;
+    height: 1px;
+    transform: translateY(-50%);
+    background-color: var(--accent-color);
+}
+
+.coaching-offers__tab-item-title_bold {
+    font-weight: 600;
+}
+
+.coaching-offers__tab-item-subtitle {
+    margin-bottom: 20px;
+}
+
+.coaching-offers__tab-item-subtitle_bold {
+    font-weight: 600;
+}
+
+ul.coaching-offers__tab-item-list {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.coaching-offers__tab-item-list-item {
+    position: relative;
+    margin-left: 12px;
+}
+
+.coaching-offers__tab-item-list-item:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -12px;
+    top: 7px;
+    width: 8px;
+    height: 1px;
+    background-color: var(--accent-color);
+}
+
+.coaching-offers__tab-item-list-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.coaching-offers__tab-item-sale {
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--accent-blue-color);
+    margin-bottom: 20px;
+}
+
+.coaching-offers__tab-item-sale_bold {
+    font-weight: 600;
+}
+
+.coaching-offers__tab-item-price-wrap {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.coaching-offers__tab-item-price-accent {
+    margin-bottom: 0;
+}
+
+.button-accent_orange-offers-item {
+    max-width: 120px;
+    min-height: 60px;
+}
+
+.button-accent_orange-choose-amount {
+    display: none;
+}
+
+.about-coaching__sign-up-wrap {
+    display: flex;
+    font-family: 'Maax', 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-left: 10px;
+}
+
+.sign-up__text {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.sign-up__link {
+    color: var(--dark-gray)
+}
+
+/*  Item right  */
+
+.choose-amount__btn {
+    margin-bottom: 40px;
+}
+
+.choose-amount__purchase-btn {
+    display: flex;
+    width: 300px;
+    border: 2px solid var(--bg-gray-color);
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.choose-amount__purchase-btn-active {
+    background: #FFFFFF;
+    border: 2px solid var(--accent-color) !important;
+}
+
+.choose-amount__purchase-btn:hover {
+    background: #FFFFFF;
+    border: 2px solid var(--accent-color);
+}
+
+.choose-amount__purchase-btn-coach {
+    display: block;
+}
+
+.choose-amount__purchase-btn-checkbox {
+    display: block;
+    width: 11px;
+    height: 11px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #707070;
+    padding: 2px;
+}
+
+.choose-amount__purchase-btn-check {
+    width: 5px;
+    height: 5px;
+    background: var(--accent-color);
+    display: none;
+    border-radius: 50%;
+}
+
+.choose-amount__purchase-btn-check:hover {
+    display: block;
+}
+
+.choose-amount__purchase-btn-check-active {
+    display: block;
+}
+
+.choose-amount__ttc-price {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #11282E;
+}
+
+.choose-amount__ttc-price-bold {
+    font-weight: bold;
+}
+
+.choose-amount__purchase-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.choose-amount__purchase-ico {
+    max-width: 35px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.choose-amount__purchase-ico:first-child {
+    max-width: 15px;
+}
+
+/*      Payment     */
+
+.section__payment .coaching-offers__tab-item-content {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.section__payment .coaching-offers__tab-item-price-text {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/*   MEDIA   */
+
+@media screen and (max-width: 768px) {
+    .choose-amount__purchase {
+        display: none !important;
+    }
+
+    .coaching-offers__tab-item-wrap {
+         margin-right: 0;
+    }
+
+    .choose-amount__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .coaching-offers__tab-item-wrap,
+    .coaching-offers__tab-item-wrap:not(:first-child) {
+        display: block;
+    }
+
+    .coaching-offers__tab-item-wrap {
+        margin-bottom: 40px;
+    }
+
+    .coaching-offers__tab-item-wrap.last {
+        margin-bottom: 0;
+    }
+
+    .button-accent_orange-choose-amount {
+        display: block;
+    }
+
+    .section__payment .coaching-offers__tab-item-wrap {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (width: 375px) {
+    .section__choose-amount {
+        padding-top: 55px;
+    }
+
+    .section__choose-amount_giftcard {
+        padding-top: 40px;
+    }
+
+    .section__choose-amount_giftcard .section__title__choose-amount {
+        margin-bottom: 40px;
+    }
+
+    .section__choose-amount_giftcard .coaching-offers__tab-item-wrap {
+        margin-bottom: 18px;
+    }
+
+    .section__choose-amount_giftcard .coaching-offers__tab-item-wrap.last {
+        margin-bottom: 0;
+    }
+
+    .section__title__choose-amount {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+
+    .button-accent_orange-choose-amount {
+        width: 205px;
+        height: 60px;
+    }
+
+    .coaching-offers__tab-item-content {
+        padding-bottom: 35px;
+    }
+
+    .section__choose-amount {
+        padding-bottom: 35px;
+    }
+
+    .section__whatsapp_giftcard {
+        padding-bottom: 0;
+    }
+
+    .section__payment .coaching-offers__content-wrap,
+    .section__payment .coaching-offers__tab-item-wrap {
+        margin-bottom: 0;
+    }
+
+}

@@ -1,0 +1,115 @@
+.section__confirmation {
+    padding: 60px 0 75px 0;
+}
+
+.confirmation__logo-wrap {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 56px;
+}
+
+.main-logo__link {
+    display: inline-block;
+}
+
+.confirmation__content-wrap {
+    max-width: 720px;
+    padding: 60px 90px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.confirmation__content-title {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--dark-gray);
+    margin-bottom: 15px;
+}
+
+.confirmation__content-subtitle {
+    font-family: 'Maax', 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--dark-gray);
+    margin-bottom: 15px;
+}
+
+.confirmation__content-accent {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--accent-color);
+    margin-bottom: 40px;
+}
+
+.confirmation__content-info-wrap {
+    max-width: 352px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.confirmation__content-info-title {
+    color: var(--dark-gray);
+    margin-bottom: 20px;
+}
+
+.confirmation__content-info-date-wrap {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.2;
+    color: var(--light-gray);
+    margin-bottom: 16px;
+}
+
+.confirmation__content-info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.confirmation__content-info-date-item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.confirmation__content-info-date-right {
+    font-weight: 600;
+}
+
+.confirmation__content-info-costs-top-line {
+    border-top: 1px solid var(--light-gray);
+    padding: 16px 0;
+}
+
+.confirmation__content-info-costs-wrap,
+.confirmation__content-info-sum-wrap,
+.confirmation__content-info-reduction-wrap,
+.confirmation__content-info-total-wrap {
+    font-family: 'Maax', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.25;
+    color: #11282E;
+}
+
+.confirmation__content-info-costs-left-pcs,
+.confirmation__content-info-costs-right,
+.confirmation__content-info-sum-right,
+.confirmation__content-info-reduction-right,
+.confirmation__content-info-total-cost {
+    font-weight: bold;
+}
+
+.confirmation__content-info-costs-item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+
+
+

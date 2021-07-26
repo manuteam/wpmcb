@@ -1,0 +1,14 @@
+/*   CUSTOM VARIABLES   */
+:root {
+    /* Colors */
+    --accent-color: #F79331;
+    --dark-gray: #575757;
+    --light-gray: #808080;
+    --accent-blue-color: #3194F7;
+    --bg-gray-color: #f7f7f7;
+    --bg-white-color: #FFFFFF;
+    --bg-dark-grey: #d7d7d7;
+    --button-accent-green: #36E165;
+    --button-accent-orange: #F79331;
+    --button-accent-blue: #3194F7;
+}

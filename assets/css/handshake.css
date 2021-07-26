@@ -1,0 +1,97 @@
+.handshake {
+    background: var(--bg-dark-grey);
+}
+
+.handshake__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.handshake__img {
+    max-width: 730px;
+}
+
+.handshake__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    background: var(--bg-white-color);
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px 20px;
+    cursor: pointer;
+}
+
+.handshake__info-img {
+    max-width: 115px;
+}
+
+.handshake__info-description {
+    margin-top: 40px;
+}
+
+.handshake__info-arrow {
+    margin-top: 15px;
+    width: 20px;
+}
+
+/*     handshake_tutoriels    */
+
+.section__handshake_tutoriels {
+    display: none;
+    background-color: var(--bg-gray-color);
+}
+
+/*   MEDIA   */
+
+/* 1200px */
+@media screen and (max-width: 1200px) {
+
+    .handshake__img {
+        display: none;
+    }
+
+    .handshake__info {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .section__handshake_tutoriels {
+        display: block;
+    }
+}
+
+@media screen and (width: 375px) {
+    .section__handshake-giftcard,
+    .section__handshake-template-job,
+    .section__handshake-remote,
+    .section__handshake-coachs,
+    .section__handshake-tutos-blog,
+    .section__handshake_home,
+    .section__handshake-tutos-filters {
+        background-color: var(--bg-gray-color);
+    }
+
+    .section__handshake-template-job,
+    .section__handshake-giftcard,
+    .section__handshake-remote,
+    .section__handshake-coachs,
+    .section__handshake-tutos-blog {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .section__handshake_home {
+        padding-bottom: 30px;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .handshake__img {
+        display: none;
+    }
+}

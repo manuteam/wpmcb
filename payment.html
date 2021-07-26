@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Payment</title>
+
+    <!--  Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+
+    <!--  Variables  -->
+    <link rel="stylesheet" href="assets/css/vars.css">
+    <!--    Main    -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--   Header    -->
+    <link rel="stylesheet" href="assets/css/header.css">
+    <!--   Footer    -->
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <!--  About Coaching  -->
+    <link rel="stylesheet" href="assets/css/about-coaching.css">
+    <!--  Breadcrumbs  -->
+    <link rel="stylesheet" href="assets/css/breadcrumbs.css">
+    <!--  Supplies-list block  -->
+    <link rel="stylesheet" href="assets/css/supplies-list.css">
+    <!--  Choose-amount block  -->
+    <link rel="stylesheet" href="assets/css/choose-amount.css">
+    <!--  Payment block  -->
+    <link rel="stylesheet" href="assets/css/payment.css">
+
+    <!--   Slick slider   -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+</head>
+<body>
+<!--    Header    -->
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <div class="header-top">
+
+                <!--    BURGER MENU    -->
+                <div class="header__burger-menu">
+                    <div class="burger-menu__line"></div>
+                    <div class="burger-menu__line"></div>
+                    <div class="burger-menu__line"></div>
+                </div>
+
+                <div class="overlay">
+                    <div class="header__burger-icons">
+
+                        <a href="#" class="header__burger-icon">
+                            <img src="assets/images/icons/home.svg" alt="icon-home" class="burger-icon__home">
+                        </a>
+
+                        <div class="header__burger-icon">
+                            <div class="burger-icon__close"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="menu menu__present-steps header__burger-list">
+
+                        <!--  Main item  -->
+                        <a href="#" class="menu__item-wrap menu__item-wrap_main-item">
+                            <div class="menu__item-top">
+                                <div class="menu__item-left">
+                                    <div class="menu__item-icon-wrap menu__item-icon-wrap_main">
+                                        <img src="assets/images/icons/menu/instruments-icon.svg"
+                                             alt="instruments" class="menu__item-icon">
+                                    </div>
+
+                                    <div class="menu__item-text-block">
+                                        <div class="menu__item-title">Find best price</div>
+                                        <div class="menu__item-subtitle">for my supplies list</div>
+                                    </div>
+                                </div>
+
+                                <div class="menu__item-icon-arrow-wrap">
+                                    <img src="assets/images/icons/arrow_right-icon.svg"
+                                         alt="arrow" class="menu__item-icon-arrow">
+
+                                    <svg class="menu__item-icon-arrow_white" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5"><defs><style>.cls-1{fill:#FFFFFF;}</style>
+                                        </defs><g id="Arrow_right_orange" data-name="Arrow right orange"><path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" class="cls-1" d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="menu__item-bottom">
+                                <div class="menu__item-sponsors-wrap">
+                                    <img src="assets/images/icons/sponsors/bosch.jpg" alt="bosch"
+                                         class="menu__item-sponsor-icon">
+                                    <img src="assets/images/icons/sponsors/bricorama.jpg" alt="bricorama"
+                                         class="menu__item-sponsor-icon">
+                                    <img src="assets/images/icons/sponsors/leroy_merlin.jpg" alt="leroy merlin"
+                                         class="menu__item-sponsor-icon">
+                                    <img src="assets/images/icons/sponsors/brico.jpg" alt="brico"
+                                         class="menu__item-sponsor-icon">
+                                </div>
+                            </div>
+                        </a>
+
+                        <!--  Item  -->
+                        <a href="#" class="menu__item-wrap">
+                            <div class="menu__item-left">
+                                <div class="menu__item-icon-wrap">
+                                    <img src="assets/images/icons/menu/coachs-icon.svg"
+                                         alt="coachs" class="menu__item-icon">
+                                </div>
+
+                                <div class="menu__item-text-block">
+                                    <div class="menu__item-title">Search coach</div>
+                                    <div class="menu__item-subtitle">around me</div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item-icon-arrow-wrap">
+                                <img src="assets/images/icons/arrow_right-icon.svg"
+                                     alt="arrow" class="menu__item-icon-arrow">
+
+                                <svg class="menu__item-icon-arrow_white" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5"><defs><style>.cls-1{fill:#FFFFFF;}</style>
+                                    </defs><g id="Arrow_right_orange" data-name="Arrow right orange"><path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" class="cls-1" d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+
+                        <!--  Item  -->
+                        <a href="#" class="menu__item-wrap">
+                            <div class="menu__item-left">
+                                <div class="menu__item-icon-wrap">
+                                    <img src="assets/images/icons/menu/craftsment-icon.svg"
+                                         alt="small ads" class="menu__item-icon">
+                                </div>
+
+                                <div class="menu__item-text-block">
+                                    <div class="menu__item-title">Search craftsmen</div>
+                                    <div class="menu__item-subtitle">around me</div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item-icon-arrow-wrap">
+                                <img src="assets/images/icons/arrow_right-icon.svg"
+                                     alt="arrow" class="menu__item-icon-arrow">
+
+                                <svg class="menu__item-icon-arrow_white" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5"><defs><style>.cls-1{fill:#FFFFFF;}</style>
+                                    </defs><g id="Arrow_right_orange" data-name="Arrow right orange"><path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" class="cls-1" d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+
+                        <!--  Item  -->
+                        <a href="#" class="menu__item-wrap">
+                            <div class="menu__item-left">
+                                <div class="menu__item-icon-wrap menu__item-icon-wrap-burger">
+                                    <img src="assets/images/icons/menu/video-camera.svg"
+                                         alt="small ads" class="menu__item-icon menu__item-icon-camera">
+                                </div>
+
+                                <div class="menu__item-text-block">
+                                    <div class="menu__item-title">Remote work</div>
+                                    <div class="menu__item-subtitle">assitance</div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item-icon-arrow-wrap">
+                                <img src="assets/images/icons/arrow_right-icon.svg"
+                                     alt="arrow" class="menu__item-icon-arrow">
+
+                                <svg class="menu__item-icon-arrow_white" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5"><defs><style>.cls-1{fill:#FFFFFF;}</style>
+                                    </defs><g id="Arrow_right_orange" data-name="Arrow right orange"><path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" class="cls-1" d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+
+                        <!--  Item  -->
+                        <a href="#" class="menu__item-wrap active">
+                            <div class="menu__item-left">
+                                <div class="menu__item-icon-wrap menu__item-icon-wrap-burger">
+                                    <img src="assets/images/icons/menu/burger-menu_giftcard.jpg"
+                                         alt="small ads" class="menu__item-icon">
+                                </div>
+
+                                <div class="menu__item-text-block active">
+                                    <div class="menu__item-title">Gift card</div>
+                                    <div class="menu__item-subtitle">Offer coaching</div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item-icon-arrow-wrap">
+                                <img src="assets/images/icons/arrow_right-icon.svg"
+                                     alt="arrow" class="menu__item-icon-arrow">
+
+                                <svg class="menu__item-icon-arrow_white" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5"><defs><style>.cls-1{fill:#FFFFFF;}</style>
+                                    </defs><g id="Arrow_right_orange" data-name="Arrow right orange"><path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" class="cls-1" d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="main-logo__wrap">
+                    <a href="#" class="main-logo__link">
+                        <img src="assets/images/icons/logo_mcb.svg" alt="logo" class="main-logo__img">
+                    </a>
+                </div>
+                <div class="header-top__center">
+                    <div class="header-title">DIY : Home & Garden</div>
+                    <nav class="menu header-menu">
+                        <ul class="header-menu__list">
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link active">Home</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">Coachs</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">
+                                    Remote
+                                    <span class="header-menu__link_hide">work assistance</span>
+                                </a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">Craftsmen</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">Tutorials</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-top__right-block">
+                    <div class="header-top__register">
+                        <a href="#" class="header-register">Register my business</a>
+                    </div>
+                    <div class="header-top__cart">
+                        <img src="assets/images/icons/shopping-cart.svg" alt=""
+                             class="icon header__icon header__icon-cart">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--  / Header  -->
+
+<!--    About Coaching    -->
+<section class="section section__payment bg-gray">
+    <div class="container">
+        <div class="payment__back">
+            <span class="payment__breadcrumb-arrow">
+                    <svg class="payment__breadcrumb-icon" fill="#575757" height="14px" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5">
+                        <g id="Arrow_right_orange" data-name="Arrow right orange">
+                            <path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"/>
+                        </g>
+                    </svg>
+            </span>
+
+            <a class="breadcrumbs__item payment__breadcrumb" href="#">Retour à la liste</a>
+        </div>
+
+        <div class="payment__content">
+            <div class="payment__item">
+                <div class="payment__cart">
+
+                    <div class="payment__back_sm">
+                        <span class="payment__breadcrumb-arrow">
+                                <svg class="payment__breadcrumb-icon" fill="#575757" height="12px" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5">
+                                    <g id="Arrow_right_orange" data-name="Arrow right orange">
+                                        <path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"/>
+                                    </g>
+                                </svg>
+                        </span>
+
+                        <a class="breadcrumbs__item payment__breadcrumb" href="#">Retour à la liste</a>
+                    </div>
+
+                    <h4 class="cart__title">CRÉER UNE COMMANDE</h4>
+
+                    <div class="cart__img">
+                        <img src="assets/images/icons/sponsors/amazon.jpg" alt="amazon">
+                    </div>
+
+                    <div class="cart__descr-list">
+                        <div class="cart__sm-text">Description</div>
+
+                        <div class="cart__sm-text">Prix TTC</div>
+                    </div>
+
+
+                    <ul class="cart__list">
+                        <li class="cart__item">
+                                <div class="item__left">
+                                    <div class="cart__text">Sac de ciment 35kg</div>
+                                    <div class="cart__sm-text item__descr">Marque et référence</div>
+                                </div>
+
+                                <div class="item__right">
+                                    <div class="cart__sm-text">1x 00,00€</div>
+                                    <div class="cart__text item__price">00,00€</div>
+                                </div>
+
+                                <div class="item__img">
+                                    <svg id="Capa_1" enable-background="new 0 0 515.556 515.556" fill="#D0D0D0" height="12px" width="13px" viewBox="0 0 515.556 515.556" xmlns="http://www.w3.org/2000/svg"><path d="m64.444 451.111c0 35.526 28.902 64.444 64.444 64.444h257.778c35.542 0 64.444-28.918 64.444-64.444v-322.222h-386.666z"/><path d="m322.222 32.222v-32.222h-128.889v32.222h-161.111v64.444h451.111v-64.444z"/></svg>
+                                </div>
+                            </li>
+
+                        <li class="cart__item">
+                            <div class="item__left">
+                                <div class="cart__text">Sable à bâtir 35kg</div>
+                                <div class="cart__sm-text item__descr">Marque et référence</div>
+                            </div>
+
+                            <div class="item__right">
+                                <div class="cart__sm-text">1x 00,00€</div>
+                                <div class="cart__text item__price">00,00€</div>
+                            </div>
+
+                            <div class="item__img">
+                                <svg id="Capa_1" enable-background="new 0 0 515.556 515.556" fill="#D0D0D0" height="12px" width="13px" viewBox="0 0 515.556 515.556" xmlns="http://www.w3.org/2000/svg"><path d="m64.444 451.111c0 35.526 28.902 64.444 64.444 64.444h257.778c35.542 0 64.444-28.918 64.444-64.444v-322.222h-386.666z"/><path d="m322.222 32.222v-32.222h-128.889v32.222h-161.111v64.444h451.111v-64.444z"/></svg>
+                            </div>
+                        </li>
+
+                        <li class="cart__item">
+                            <div class="item__left">
+                                <div class="cart__text">Pelle</div>
+                                <div class="cart__sm-text item__descr">Marque et référence</div>
+                            </div>
+
+                            <div class="item__right">
+                                <div class="cart__sm-text">1x 00,00€</div>
+                                <div class="cart__text item__price">00,00€</div>
+                            </div>
+
+                            <div class="item__img">
+                                <svg id="Capa_1" enable-background="new 0 0 515.556 515.556" fill="#D0D0D0" height="12px" width="13px" viewBox="0 0 515.556 515.556" xmlns="http://www.w3.org/2000/svg"><path d="m64.444 451.111c0 35.526 28.902 64.444 64.444 64.444h257.778c35.542 0 64.444-28.918 64.444-64.444v-322.222h-386.666z"/><path d="m322.222 32.222v-32.222h-128.889v32.222h-161.111v64.444h451.111v-64.444z"/></svg>
+                            </div>
+                        </li>
+
+                        <li class="cart__item">
+                            <div class="item__left">
+                                <div class="cart__text">Bétonnière</div>
+                                <div class="cart__sm-text item__descr">Marque et référence</div>
+                            </div>
+
+                            <div class="item__right">
+                                <div class="cart__sm-text">1x 00,00€</div>
+                                <div class="cart__text item__price">00,00€</div>
+                            </div>
+
+                            <div class="item__img">
+                                <svg id="Capa_1" enable-background="new 0 0 515.556 515.556" fill="#D0D0D0" height="12px" width="13px" viewBox="0 0 515.556 515.556" xmlns="http://www.w3.org/2000/svg"><path d="m64.444 451.111c0 35.526 28.902 64.444 64.444 64.444h257.778c35.542 0 64.444-28.918 64.444-64.444v-322.222h-386.666z"/><path d="m322.222 32.222v-32.222h-128.889v32.222h-161.111v64.444h451.111v-64.444z"/></svg>
+                            </div>
+                        </li>
+
+                        <li class="cart__item">
+                            <div class="item__left">
+                                <div class="cart__text">Bac à gâcher</div>
+                                <div class="cart__sm-text item__descr">Marque et référence</div>
+                            </div>
+
+                            <div class="item__right">
+                                <div class="cart__sm-text">1x 00,00€</div>
+                                <div class="cart__text item__price">00,00€</div>
+                            </div>
+
+                            <div class="item__img">
+                                <svg id="Capa_1" enable-background="new 0 0 515.556 515.556" fill="#D0D0D0" height="12px" width="13px" viewBox="0 0 515.556 515.556" xmlns="http://www.w3.org/2000/svg"><path d="m64.444 451.111c0 35.526 28.902 64.444 64.444 64.444h257.778c35.542 0 64.444-28.918 64.444-64.444v-322.222h-386.666z"/><path d="m322.222 32.222v-32.222h-128.889v32.222h-161.111v64.444h451.111v-64.444z"/></svg>
+                            </div>
+                        </li>
+
+                        <li class="cart__item">
+                            <div class="item__left">
+                                <div class="cart__text">Gants de protection</div>
+                                <div class="cart__sm-text item__descr">Marque et référence</div>
+                            </div>
+
+                            <div class="item__right">
+                                <div class="cart__sm-text">1x 00,00€</div>
+                                <div class="cart__text item__price">00,00€</div>
+                            </div>
+
+                            <div class="item__img">
+                                <svg id="Capa_1" enable-background="new 0 0 515.556 515.556" fill="#D0D0D0" height="12px" width="13px" viewBox="0 0 515.556 515.556" xmlns="http://www.w3.org/2000/svg"><path d="m64.444 451.111c0 35.526 28.902 64.444 64.444 64.444h257.778c35.542 0 64.444-28.918 64.444-64.444v-322.222h-386.666z"/><path d="m322.222 32.222v-32.222h-128.889v32.222h-161.111v64.444h451.111v-64.444z"/></svg>
+                            </div>
+                        </li>
+
+                        <li class="cart__item">
+                            <div class="item__left">
+                                <div class="cart__text">Lunettes de protection</div>
+                                <div class="cart__sm-text item__descr">Marque et référence</div>
+                            </div>
+
+                            <div class="item__right">
+                                <div class="cart__sm-text">1x 00,00€</div>
+                                <div class="cart__text item__price">00,00€</div>
+                            </div>
+
+                            <div class="item__img">
+                                <svg id="Capa_1" enable-background="new 0 0 515.556 515.556" fill="#D0D0D0" height="12px" width="13px" viewBox="0 0 515.556 515.556" xmlns="http://www.w3.org/2000/svg"><path d="m64.444 451.111c0 35.526 28.902 64.444 64.444 64.444h257.778c35.542 0 64.444-28.918 64.444-64.444v-322.222h-386.666z"/><path d="m322.222 32.222v-32.222h-128.889v32.222h-161.111v64.444h451.111v-64.444z"/></svg>
+                            </div>
+                        </li>
+
+                        <li class="cart__item">
+                            <div class="item__left">
+                                <div class="cart__text">Masque de protection</div>
+                                <div class="cart__sm-text item__descr">Marque et référence</div>
+                            </div>
+
+                            <div class="item__right">
+                                <div class="cart__sm-text">1x 00,00€</div>
+                                <div class="cart__text item__price">00,00€</div>
+                            </div>
+
+                            <div class="item__img">
+                                <svg id="Capa_1" enable-background="new 0 0 515.556 515.556" fill="#D0D0D0" height="12px" width="13px" viewBox="0 0 515.556 515.556" xmlns="http://www.w3.org/2000/svg"><path d="m64.444 451.111c0 35.526 28.902 64.444 64.444 64.444h257.778c35.542 0 64.444-28.918 64.444-64.444v-322.222h-386.666z"/><path d="m322.222 32.222v-32.222h-128.889v32.222h-161.111v64.444h451.111v-64.444z"/></svg>
+                            </div>
+                        </li>
+
+                        <li class="cart__item">
+                            <div class="item__left">
+                                <div class="cart__text">Protection de sol</div>
+                                <div class="cart__sm-text item__descr">Marque et référence</div>
+                            </div>
+
+                            <div class="item__right">
+                                <div class="cart__sm-text">1x 00,00€</div>
+                                <div class="cart__text item__price">00,00€</div>
+                            </div>
+
+                            <div class="item__img">
+                                <svg id="Capa_1" enable-background="new 0 0 515.556 515.556" fill="#D0D0D0" height="12px" width="13px" viewBox="0 0 515.556 515.556" xmlns="http://www.w3.org/2000/svg"><path d="m64.444 451.111c0 35.526 28.902 64.444 64.444 64.444h257.778c35.542 0 64.444-28.918 64.444-64.444v-322.222h-386.666z"/><path d="m322.222 32.222v-32.222h-128.889v32.222h-161.111v64.444h451.111v-64.444z"/></svg>
+                            </div>
+                        </li>
+
+                        <li class="cart__item">
+                            <div class="item__left">
+                                <div class="cart__text">Seau en plastique diamètre</div>
+                                <div class="cart__sm-text item__descr">Marque et référence</div>
+                            </div>
+
+                            <div class="item__right">
+                                <div class="cart__sm-text">1x 00,00€</div>
+                                <div class="cart__text item__price">00,00€</div>
+                            </div>
+
+                            <div class="item__img">
+                                <svg id="Capa_1" enable-background="new 0 0 515.556 515.556" fill="#D0D0D0" height="12px" width="13px" viewBox="0 0 515.556 515.556" xmlns="http://www.w3.org/2000/svg"><path d="m64.444 451.111c0 35.526 28.902 64.444 64.444 64.444h257.778c35.542 0 64.444-28.918 64.444-64.444v-322.222h-386.666z"/><path d="m322.222 32.222v-32.222h-128.889v32.222h-161.111v64.444h451.111v-64.444z"/></svg>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="payment__coaching">
+                    <!--    About Coaching    -->
+                    <div class="about-coaching__right-side">
+                        <div class="coaching-offers__content-wrap">
+
+                            <div class="cart__text payment__title">Options disponibles :</div>
+
+                            <!--    Offer items  wrap  -->
+                            <div class="coaching-offers__tab-items-wrap payment__tab-items-wrap" id="payment-coaching__slider">
+
+                                <!--    Offer item  -->
+                                <div>
+                                    <div class="coaching-offers__tab-item-wrap bg-gray">
+                                        <div class="coaching-offers__tab-item-image-wrap">
+                                            <img src="assets/images/booking-coach.jpg" alt="Offer" class="coaching-offers__tab-item-image">
+                                        </div>
+                                        <div class="coaching-offers__tab-item-content">
+                                            <div class="are-u-ready__title coaching-offers__tab-item-title">
+                                                <span class="coaching-offers__tab-item-title_bold">1h</span>: Visit & Advice
+                                            </div>
+
+                                            <div class="coaching-offers__tab-item-subtitle">
+                                    <span class="coaching-offers__tab-item-subtitle_bold">
+                                        1 heure de rencontre à mon domicile
+                                    </span>
+                                                avec mon coach au cours de laquelle il:
+                                            </div>
+
+                                            <ul class="coaching-offers__tab-item-list">
+                                                <li class="coaching-offers__tab-item-list-item">
+                                                    écoute et analyse mes envies
+                                                </li>
+                                                <li class="coaching-offers__tab-item-list-item">
+                                                    me conseille sur la bonne organisation de mon projet et corrige le budget estimatif
+                                                </li>
+                                                <li class="coaching-offers__tab-item-list-item">
+                                                    m’apporte ses conseils sur le choix des outils et matériaux
+                                                </li>
+                                            </ul>
+
+                                            <div class="coaching-offers__tab-item-sale">
+                                                En plus, je bénéficie de
+                                                <div class="coaching-offers__tab-item-sale_bold">
+                                                    50 % de crédit d’impôt !
+                                                </div>
+                                            </div>
+
+                                            <div class="coaching-offers__tab-item-price-wrap">
+                                                <div class="coaching-offers__tab-item-price-text">
+                                                    78€ soit <span class="are-u-ready__title coaching-offers__tab-item-price-accent">39€</span>
+                                                    <br>après réduction d’impôts
+                                                </div>
+                                            </div>
+
+                                            <button class="button-accent button-accent_orange button-accent_orange-offers-item">Add</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--    Offer item  -->
+                                <div>
+                                    <div class="coaching-offers__tab-item-wrap bg-gray">
+                                        <div class="coaching-offers__tab-item-image-wrap">
+                                            <img src="assets/images/booking-coach.jpg" alt="Offer" class="coaching-offers__tab-item-image">
+                                        </div>
+                                        <div class="coaching-offers__tab-item-content">
+                                            <div class="are-u-ready__title coaching-offers__tab-item-title">
+                                                <span class="coaching-offers__tab-item-title_bold">2h</span>: Visit & Advice
+                                            </div>
+
+                                            <div class="coaching-offers__tab-item-subtitle">
+                                    <span class="coaching-offers__tab-item-subtitle_bold">
+                                        2 heure de rencontre à mon domicile
+                                    </span>
+                                                avec mon coach au cours de laquelle il:
+                                            </div>
+
+                                            <ul class="coaching-offers__tab-item-list">
+                                                <li class="coaching-offers__tab-item-list-item">
+                                                    écoute et analyse mes envies
+                                                </li>
+                                                <li class="coaching-offers__tab-item-list-item">
+                                                    me conseille sur la bonne organisation de mon projet et corrige le budget estimatif
+                                                </li>
+                                                <li class="coaching-offers__tab-item-list-item">
+                                                    m’apporte ses conseils sur le choix des outils et matériaux
+                                                </li>
+                                            </ul>
+
+                                            <div class="coaching-offers__tab-item-sale">
+                                                En plus, je bénéficie de
+                                                <div class="coaching-offers__tab-item-sale_bold">
+                                                    50 % de crédit d’impôt !
+                                                </div>
+                                            </div>
+
+                                            <div class="coaching-offers__tab-item-price-wrap">
+                                                <div class="coaching-offers__tab-item-price-text">
+                                                    78€ soit <span class="are-u-ready__title coaching-offers__tab-item-price-accent">39€</span>
+                                                    <br>après réduction d’impôts
+                                                </div>
+                                            </div>
+
+                                            <button class="button-accent button-accent_orange button-accent_orange-offers-item">Add</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--    Offer item  -->
+                                <div>
+                                    <div class="coaching-offers__tab-item-wrap bg-gray">
+                                        <div class="coaching-offers__tab-item-image-wrap">
+                                            <img src="assets/images/booking-coach.jpg" alt="Offer" class="coaching-offers__tab-item-image">
+                                        </div>
+                                        <div class="coaching-offers__tab-item-content">
+                                            <div class="are-u-ready__title coaching-offers__tab-item-title">
+                                                <span class="coaching-offers__tab-item-title_bold">3h</span>: Visit & Advice
+                                            </div>
+
+                                            <div class="coaching-offers__tab-item-subtitle">
+                                    <span class="coaching-offers__tab-item-subtitle_bold">
+                                        3 heure de rencontre à mon domicile
+                                    </span>
+                                                avec mon coach au cours de laquelle il:
+                                            </div>
+
+                                            <ul class="coaching-offers__tab-item-list">
+                                                <li class="coaching-offers__tab-item-list-item">
+                                                    écoute et analyse mes envies
+                                                </li>
+                                                <li class="coaching-offers__tab-item-list-item">
+                                                    me conseille sur la bonne organisation de mon projet et corrige le budget estimatif
+                                                </li>
+                                                <li class="coaching-offers__tab-item-list-item">
+                                                    m’apporte ses conseils sur le choix des outils et matériaux
+                                                </li>
+                                            </ul>
+
+                                            <div class="coaching-offers__tab-item-sale">
+                                                En plus, je bénéficie de
+                                                <div class="coaching-offers__tab-item-sale_bold">
+                                                    50 % de crédit d’impôt !
+                                                </div>
+                                            </div>
+
+                                            <div class="coaching-offers__tab-item-price-wrap">
+                                                <div class="coaching-offers__tab-item-price-text">
+                                                    78€ soit <span class="are-u-ready__title coaching-offers__tab-item-price-accent">39€</span>
+                                                    <br>après réduction d’impôts
+                                                </div>
+                                            </div>
+
+                                            <button class="button-accent button-accent_orange button-accent_orange-offers-item">Add</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--    Offer item  -->
+                                <div>
+                                    <div class="coaching-offers__tab-item-wrap bg-gray">
+                                        <div class="coaching-offers__tab-item-image-wrap">
+                                            <img src="assets/images/booking-coach.jpg" alt="Offer" class="coaching-offers__tab-item-image">
+                                        </div>
+                                        <div class="coaching-offers__tab-item-content">
+                                            <div class="are-u-ready__title coaching-offers__tab-item-title">
+                                                <span class="coaching-offers__tab-item-title_bold">4h</span>: Visit & Advice
+                                            </div>
+
+                                            <div class="coaching-offers__tab-item-subtitle">
+                                    <span class="coaching-offers__tab-item-subtitle_bold">
+                                        4 heure de rencontre à mon domicile
+                                    </span>
+                                                avec mon coach au cours de laquelle il:
+                                            </div>
+
+                                            <ul class="coaching-offers__tab-item-list">
+                                                <li class="coaching-offers__tab-item-list-item">
+                                                    écoute et analyse mes envies
+                                                </li>
+                                                <li class="coaching-offers__tab-item-list-item">
+                                                    me conseille sur la bonne organisation de mon projet et corrige le budget estimatif
+                                                </li>
+                                                <li class="coaching-offers__tab-item-list-item">
+                                                    m’apporte ses conseils sur le choix des outils et matériaux
+                                                </li>
+                                            </ul>
+
+                                            <div class="coaching-offers__tab-item-sale">
+                                                En plus, je bénéficie de
+                                                <div class="coaching-offers__tab-item-sale_bold">
+                                                    50 % de crédit d’impôt !
+                                                </div>
+                                            </div>
+
+                                            <div class="coaching-offers__tab-item-price-wrap">
+                                                <div class="coaching-offers__tab-item-price-text">
+                                                    78€ soit <span class="are-u-ready__title coaching-offers__tab-item-price-accent">39€</span>
+                                                    <br>après réduction d’impôts
+                                                </div>
+                                            </div>
+
+                                            <button class="button-accent button-accent_orange button-accent_orange-offers-item">Add</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--  / About Coaching    -->
+                </div>
+            </div>
+
+            <div class="payment__item payment-right">
+                <div class="payment-right__title">Récapitulatif</div>
+
+                <div class="payment-right__list">
+                    <div class="payment-right__item">
+                        <div class="payment-right__item-name">Outils et Matériaux</div>
+                        <div class="item__price">00,00€</div>
+                    </div>
+
+                    <div class="payment-right__item">
+                        <div class="payment-right__item-name">Coaching</div>
+                        <div class="item__price">-</div>
+                    </div>
+                </div>
+
+                <div class="payment-right__title">Total de la commande</div>
+
+                <div class="payment-right__title">
+                    <span class="item__price">00,00€</span>
+                    TTC
+                </div>
+
+                <button class="button-accent button-accent_blue button__payment">
+                    Commander
+                    <span class="button__payment-icon">
+                            <svg class="button__payment-arrow" id="Calque_1" height="14px" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5">
+                                <defs><style>.cls-1{fill:#FFFFFF;}</style></defs>
+                                <g id="Arrow_right_orange" data-name="Arrow right orange">
+                                    <path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" class="cls-1" d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"></path>
+                                </g>
+                            </svg>
+                        </span>
+                </button>
+
+                <div class="choose-amount__purchase-icons">
+                    <div class="choose-amount__purchase-ico">
+                        <img src="assets/images/lock.jpg" alt="lock" class="choose-amount__purchase-img">
+                    </div>
+
+                    <div class="choose-amount__purchase-ico">
+                        <img src="assets/images/visa.jpg" alt="visa" class="choose-amount__purchase-img">
+                    </div>
+
+                    <div class="choose-amount__purchase-ico">
+                        <img src="assets/images/mastercard.jpg" alt="mastercard" class="choose-amount__purchase-img">
+                    </div>
+                </div>
+
+                <div class="payment-right__descr">Paiement sécurisé sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</div>
+
+                <div class="supplies-list__additionally payment-right__additionally">
+                    <!--    additionally__item     -->
+                    <div class="additionally__item">
+                        <a href="#" class="additionally__item-img-wrap">
+                            <img src="assets/images/icons/arrow_right-icon.svg" alt="arrow" class="additionally__item-img-arrow">
+                        </a>
+                        <div class="additionally__item-text additionally__item-text-payment">Retour au tuto</div>
+                    </div>
+
+                    <!--    additionally__item     -->
+                    <div class="additionally__item">
+                        <a href="#" class="additionally__item-img-wrap">
+                            <img src="assets/images/icons/printer.jpg" class="additionally__item-img-printer" alt="printer">
+                        </a>
+
+                        <div class="additionally__item-text additionally__item-text-payment">Imprimer cette liste</div>
+                    </div>
+
+                    <!--    additionally__item     -->
+                    <div class="additionally__item">
+                        <a href="#" class="additionally__item-img-wrap">
+                            <img src="assets/images/icons/list-plus.jpg" class="additionally__item-img-list" alt="list-plus">
+                        </a>
+
+                        <div class="additionally__item-text additionally__item-text-payment">Enregistrer cette liste</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  / About Coaching    -->
+
+
+<!--    Footer    -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-inner">
+
+            <div class="footer-top">
+                <div class="main-logo__wrap footer-logo__wrap">
+                    <a href="#" class="main-logo__link">
+                        <img src="assets/images/icons/logo_mcb.svg" alt="logo" class="main-logo__img">
+                    </a>
+                </div>
+                <div class="footer-top__copyright">
+                    Copyright ©2020 MonCoachBrico, tous droits réservés.
+                </div>
+            </div>
+
+            <div class="footer-middle">
+                <div class="footer-middle__inner">
+
+                    <div class="footer-middle__columns-wrap">
+                        <!-- First column -->
+                        <div class="footer-middle__column footer-middle__column_first">
+                            <div class="footer-middle__column-title">
+                                DIY
+                            </div>
+                            <div class="footer-middle__column-list-wrap">
+                                <ul class="footer-middle__list">
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Coachs</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Remote assistance</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Craftsmen</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Tutorials</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Speed quote</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Gifcard</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Second column -->
+                        <div class="footer-middle__column footer-middle__column_second">
+                            <div class="footer-middle__column-title">
+                                Pro
+                            </div>
+                            <div class="footer-middle__column-list-wrap">
+                                <ul class="footer-middle__list">
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Become a coach</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Register my business</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Third column -->
+                        <div class="footer-middle__column footer-middle__column_third">
+                            <div class="footer-middle__column-title">
+                                Société
+                            </div>
+                            <div class="footer-middle__column-list-wrap">
+                                <ul class="footer-middle__list">
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">About us</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="tel:0970805381" class="footer-middle__list-link">Call : 09 70 80 53
+                                            81</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="mailto:contact@moncoachbrico.com" class="footer-middle__list-link">
+                                            Contact mail : contact@moncoachbrico.com
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--    Socials    -->
+                    <div class="footer-middle__socials-wrap">
+                        <div class="footer-middle__socials-item">
+                            <img src="assets/images/icons/facebook-icon.svg" alt=""
+                                 class="footer-middle__socials-icon">
+                        </div>
+                        <div class="footer-middle__socials-item">
+                            <img src="assets/images/icons/twitter-icon.svg" alt=""
+                                 class="footer-middle__socials-icon">
+                        </div>
+                        <div class="footer-middle__socials-item">
+                            <img src="assets/images/icons/linkedin-icon.svg" alt=""
+                                 class="footer-middle__socials-icon">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom__inner">
+                    <div class="footer-bottom__address">
+                        MonCoachBrico 177 bis, Avenue Louis Lumière 34400 Lunel France
+                    </div>
+
+                    <div class="footer-bottom__terms">
+                        <ul class="footer-bottom__terms-list">
+                            <li class="footer-bottom__terms-item">
+                                <a href="" class="footer-bottom__terms-link">
+                                    Conditions générales d’utilisation
+                                </a>
+                            </li>
+                            <li class="footer-bottom__terms-item">
+                                <a href="" class="footer-bottom__terms-link">
+                                    Politique relative à la protection des données personnelles
+                                </a>
+                            </li>
+                            <li class="footer-bottom__terms-item">
+                                <a href="" class="footer-bottom__terms-link">
+                                    Politique en matière de cookies
+                                </a>
+                            </li>
+                            <li class="footer-bottom__terms-item">
+                                <a href="" class="footer-bottom__terms-link">
+                                    Règles de référencement
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--  / Footer    -->
+
+<!--  JQuery  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+
+<!--   Slick slider   -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!--  main js file  -->
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

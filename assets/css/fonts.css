@@ -1,0 +1,39 @@
+/*  400 - Regular  */
+@font-face {
+    font-family: 'Maax';
+    font-display: swap;
+    src: url("/layouts/assets/fonts/Maax-regular.woff");
+    src: local("0"), url("/layouts/assets/fonts/Maax-regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 500 - Medium */
+@font-face {
+    font-family: 'Maax';
+    font-display: swap;
+    src: url("/layouts/assets/fonts/Maax-Medium.woff");
+    src: local("0"), url("/layouts/assets/fonts/Maax-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* 700 - Bold */
+@font-face {
+    font-family: 'Maax';
+    font-display: swap;
+    src: url("/layouts/assets/fonts/Maax-Bold.woff");
+    src: local("0"), url("/layouts/assets/fonts/Maax-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* 900 - Black */
+@font-face {
+    font-family: 'Maax';
+    font-display: swap;
+    src: url("/layouts/assets/fonts/Maax-Black.woff");
+    src: local("0"), url("/layouts/assets/fonts/Maax-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+}

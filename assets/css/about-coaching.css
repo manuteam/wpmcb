@@ -1,0 +1,606 @@
+.about-coaching__left-side {
+    max-width: 406px;
+    min-height: 770px;
+    padding: 32px 25px 62px 25px;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+.about-coaching__content-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+}
+
+.about-coaching__are-u-ready {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.are-u-ready__coachers-wrap {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 52px;
+}
+
+.are-u-ready__coachers-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.are-u-ready__coachers-item {
+    position: relative;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+}
+
+.are-u-ready__coachers-item:nth-child(2) {
+    left: -10px;
+}
+
+.are-u-ready__coachers-item:nth-child(3) {
+    left: -20px;
+}
+
+.are-u-ready__coachers-item:nth-child(4) {
+    left: -30px;
+}
+
+.are-u-ready__coachers-item:nth-child(5) {
+    left: -40px;
+}
+
+.are-u-ready__coachers-item:nth-child(6) {
+    left: -50px;
+}
+
+.are-u-ready__coachers-item:nth-child(7) {
+    left: -60px;
+}
+
+.are-u-ready__coachers-photo {
+    display: block;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.are-u-ready__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--accent-color);
+    margin-bottom: 35px;
+}
+
+.are-u-ready__steps-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 90px;
+}
+
+.are-u-ready__steps-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.are-u-ready__steps-item:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.are-u-ready__steps-item-num-wrap {
+    margin-right: 35px;
+}
+
+.are-u-ready__steps-item-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 29px;
+    height: 29px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: var(--accent-color);
+    font-family: 'Maax', 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.are-u-ready__bottom-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.are-u-ready__bottom-img {
+    width: 237px;
+    height: 156px;
+}
+
+.are-u-ready__bottom-text {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.are-u-ready__bottom-text-bold {
+    font-weight: 600;
+}
+
+/*   Right block - slider   */
+.about-coaching__right-side {
+    min-width: 0;
+}
+
+.coaching-offers__content-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 25px;
+    min-width: 0;
+}
+
+.coaching-offers__title {
+    margin-right: 28px;
+    margin-bottom: 0;
+}
+
+.coaching-offers__top-wrap {
+    margin-bottom: 25px;
+}
+
+.coaching-offers__top-wrap,
+.coaching-offers__tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.coaching-offers__item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.coaching-offers__item-link {
+    position: relative;
+    font-family: 'Maax', 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--dark-gray);
+}
+
+.coaching-offers__item-link:hover,
+.coaching-offers__item-link.active {
+    font-weight: 600;
+}
+
+.coaching-offers__item-link.active:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--dark-gray);
+    bottom: -15px;
+}
+
+/*   Offer item in slider   */
+.coaching-offers__tab-items-wrap {
+    position: relative;
+    margin-bottom: 25px;
+    max-width: 785px;
+}
+
+.coaching-offers__tab-item-wrap {
+    max-width: 350px;
+    /*width: 100%;*/
+    min-height: 650px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.coaching-offers__tab-item-image-wrap {
+    position: relative;
+    width: 100%;
+    height: 217px;
+    overflow: hidden;
+}
+
+.coaching-offers__tab-item-image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.coaching-offers__tab-item-content {
+    padding: 20px 21px;
+    font-family: 'Maax', 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--dark-gray);
+}
+
+.coaching-offers__tab-item-title {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.coaching-offers__tab-item-title:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    width: 23px;
+    height: 1px;
+    transform: translateY(-50%);
+    background-color: var(--accent-color);
+}
+
+.coaching-offers__tab-item-title_bold {
+    font-weight: 600;
+}
+
+.coaching-offers__tab-item-subtitle {
+    margin-bottom: 20px;
+}
+
+.coaching-offers__tab-item-subtitle_bold {
+    font-weight: 600;
+}
+
+ul.coaching-offers__tab-item-list {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.coaching-offers__tab-item-list-item {
+    position: relative;
+    margin-left: 12px;
+}
+
+.coaching-offers__tab-item-list-item:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -12px;
+    top: 7px;
+    width: 8px;
+    height: 1px;
+    background-color: var(--accent-color);
+}
+
+.coaching-offers__tab-item-list-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.coaching-offers__tab-item-sale {
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--accent-blue-color);
+    margin-bottom: 20px;
+}
+
+.coaching-offers__tab-item-sale_bold {
+    font-weight: 600;
+}
+
+.coaching-offers__tab-item-price-wrap {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.coaching-offers__tab-item-price-text {
+    color: #808080;
+}
+
+.coaching-offers__tab-item-price-accent {
+    margin-bottom: 0;
+}
+
+.button-accent_orange-offers-item {
+    max-width: 120px;
+    min-height: 60px;
+}
+
+.about-coaching__sign-up-wrap {
+    display: flex;
+    font-family: 'Maax', 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-left: 10px;
+}
+
+.sign-up__text {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.sign-up__link {
+    color: var(--dark-gray)
+}
+
+/*   Slider styles   */
+.custom-arrow {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    z-index: 100;
+    box-shadow: 0px 0px 30px #00000045;
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.custom-arrow_prev {
+    left: -50px;
+    right: unset;
+}
+
+.custom-arrow:hover {
+    background-color: #d27105;
+}
+
+.custom-arrow:active {
+    background-color: #9d5003;
+}
+
+.custom-arrow__icon {
+    width: 27px;
+    height: auto;
+    transform: translateX(2px);
+}
+
+.custom-arrow__icon_prev {
+    transform: rotate(180deg) translateX(2px);
+}
+
+.slide-track {
+    display: flex;
+}
+
+.slick-list {
+
+}
+
+/*  Booking-coach_coachs   */
+
+.section__booking-coach_coachs .about-coaching__left-side {
+    max-width: 615px;
+    margin: 0 auto;
+}
+
+.section__booking-coach_coachs .are-u-ready__coachers-wrap {
+    margin-left: 42%;
+}
+
+.coaching-offers__title_coachs {
+    width: 100%;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.booking-coach__title {
+    width: 100%;
+}
+
+.section__booking-coach_coachs .are-u-ready__coachers-inner {
+    left: 50%;
+    transform: translateX(-25%);
+}
+
+.section__booking-coach_coachs .about-coaching__are-u-ready {
+    overflow: hidden;
+}
+
+.section__booking-coach_coachs .about-coaching__sign-up-wrap {
+    margin-top: 50px;
+}
+
+/*      Payment     */
+
+.payment__coaching .coaching-offers__content-wrap {
+    margin-top: 0;
+}
+
+.payment__tab-items-wrap {
+    width: 100%;
+}
+
+.payment__coaching .coaching-offers__tab-item-wrap {
+    max-width: 300px;
+}
+
+.payment__coaching .coaching-offers__tab-item-image {
+    height: 217px;
+    object-fit: cover;
+}
+
+/* MEDIA */
+
+/*   1200px   */
+@media screen and (max-width: 1200px) {
+
+}
+
+/* 992px */
+@media screen and (max-width: 992px) {
+    .about-coaching__content-wrap {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .about-coaching__left-side {
+        margin-right: 0;
+    }
+
+    .coaching-offers__top-wrap {
+        flex-direction: column;
+    }
+
+    .coaching-offers__title {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    ul.coaching-offers__tabs {
+        position: relative;
+        flex-direction: row;
+        left: -10px;
+    }
+
+    .coaching-offers__tab-item-wrap {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+
+}
+
+/* 576px */
+@media screen and (max-width: 576px) {
+    .about-coaching__left-side {
+        max-width: unset;
+        max-width: 302px;
+        min-height: 700px;
+        padding: 32px 25px 35px 25px;
+    }
+
+    .about-coaching__are-u-ready {
+        position: relative;
+    }
+
+    .about-coaching__are-u-ready .are-u-ready__title {
+        margin-top: 67px;
+    }
+
+    .are-u-ready__coachers-inner {
+        position: absolute;
+        left: 30px;
+    }
+
+    .are-u-ready__coachers-item:nth-child(2) {
+        left: -30px;
+    }
+
+    .are-u-ready__coachers-item:nth-child(3) {
+        left: -60px;
+    }
+
+    .are-u-ready__coachers-item:nth-child(4) {
+        left: -90px;
+    }
+
+    .are-u-ready__coachers-item:nth-child(5) {
+        left: -120px;
+    }
+
+    .are-u-ready__coachers-item:nth-child(6) {
+        left: -150px;
+    }
+
+    .are-u-ready__coachers-item:nth-child(7) {
+        left: -180px;
+    }
+
+    .are-u-ready__steps-wrap {
+        margin-bottom: 10px;
+    }
+
+    .are-u-ready__steps-item-num-wrap {
+        margin-right: 15px;
+    }
+
+    .coaching-offers__tab-item-content {
+        padding: 0 21px 20px 21px;
+    }
+
+    .coaching-offers__tab-item-subtitle,
+    .coaching-offers__tab-item-list {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .coaching-offers__tab-items-wrap {
+        margin-bottom: 5px;
+    }
+
+    .section__about-coaching_tutos-blog .coaching-offers__tab-item-content {
+        padding-top: 19px;
+    }
+
+    .coaching-offers__title_coachs {
+        text-align: inherit;
+    }
+}
+
+@media screen and (width: 375px) {
+    .section__about-coaching,
+    .section__about-coaching_tutoriels .coaching-offers__tab-item-content {
+        padding-bottom: 20px;
+    }
+    
+    .are-u-ready__bottom-text {
+        margin-bottom: 25px;
+    }
+
+    .button-accent_orange-about-coaching {
+        width: 195px;
+        height: 60px;
+    }
+
+    .section__about-coaching_tutos-blog {
+        padding-top: 28px;
+    }
+
+    .about-coaching__are-u-ready .are-u-ready__title {
+        margin-top: 55px;
+    }
+
+    .section__about-coaching_tutoriels .coaching-offers__tab-item-wrap {
+        margin-bottom: 10px;
+    }
+
+    .section__about-coaching_tutoriels .coaching-offers__tab-items-wrap {
+        margin-bottom: 10px;
+    }
+}
+
+/*=======*/

@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Checkout</title>
+
+    <!--  Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+
+    <!--  Variables  -->
+    <link rel="stylesheet" href="assets/css/vars.css">
+    <!--    Main    -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--   Header    -->
+    <link rel="stylesheet" href="assets/css/header.css">
+    <!--   Footer    -->
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <!--   Payment    -->
+    <link rel="stylesheet" href="assets/css/payment.css">
+    <!--   Choose amount    -->
+    <link rel="stylesheet" href="assets/css/choose-amount.css">
+    <!--   Checkout    -->
+    <link rel="stylesheet" href="assets/css/checkout.css">
+
+</head>
+<body>
+<!--    Header    -->
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <div class="header-top">
+
+                <!--    BURGER MENU    -->
+                <div class="header__burger-menu">
+                    <div class="burger-menu__line"></div>
+                    <div class="burger-menu__line"></div>
+                    <div class="burger-menu__line"></div>
+                </div>
+
+                <div class="overlay">
+                    <div class="header__burger-icons">
+
+                        <a href="#" class="header__burger-icon">
+                            <img src="assets/images/icons/home.svg" alt="icon-home"
+                                 class="burger-icon__home">
+                        </a>
+
+                        <div class="header__burger-icon">
+                            <div class="burger-icon__close"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="menu menu__present-steps header__burger-list">
+
+                        <!--  Main item  -->
+                        <a href="#" class="menu__item-wrap menu__item-wrap_main-item">
+                            <div class="menu__item-top">
+                                <div class="menu__item-left">
+                                    <div class="menu__item-icon-wrap menu__item-icon-wrap_main">
+                                        <img src="assets/images/icons/menu/instruments-icon.svg"
+                                             alt="instruments" class="menu__item-icon">
+                                    </div>
+
+                                    <div class="menu__item-text-block">
+                                        <div class="menu__item-title">Find best price</div>
+                                        <div class="menu__item-subtitle">for my supplies list</div>
+                                    </div>
+                                </div>
+
+                                <div class="menu__item-icon-arrow-wrap">
+                                    <img src="assets/images/icons/arrow_right-icon.svg"
+                                         alt="arrow" class="menu__item-icon-arrow">
+
+                                    <svg class="menu__item-icon-arrow_white" id="Calque_1" data-name="Calque 1"
+                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5">
+                                        <defs>
+                                            <style>.cls-1 {
+                                                    fill: #FFFFFF;
+                                                }</style>
+                                        </defs>
+                                        <g id="Arrow_right_orange" data-name="Arrow right orange">
+                                            <path id="Icon_ionic-ios-arrow-round-forward"
+                                                  data-name="Icon ionic-ios-arrow-round-forward" class="cls-1"
+                                                  d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="menu__item-bottom">
+                                <div class="menu__item-sponsors-wrap">
+                                    <img src="assets/images/icons/sponsors/bosch.jpg" alt="bosch"
+                                         class="menu__item-sponsor-icon">
+                                    <img src="assets/images/icons/sponsors/bricorama.jpg" alt="bricorama"
+                                         class="menu__item-sponsor-icon">
+                                    <img src="assets/images/icons/sponsors/leroy_merlin.jpg"
+                                         alt="leroy merlin"
+                                         class="menu__item-sponsor-icon">
+                                    <img src="assets/images/icons/sponsors/brico.jpg" alt="brico"
+                                         class="menu__item-sponsor-icon">
+                                </div>
+                            </div>
+                        </a>
+
+                        <!--  Item  -->
+                        <a href="#" class="menu__item-wrap">
+                            <div class="menu__item-left">
+                                <div class="menu__item-icon-wrap">
+                                    <img src="assets/images/icons/menu/coachs-icon.svg"
+                                         alt="coachs" class="menu__item-icon">
+                                </div>
+
+                                <div class="menu__item-text-block">
+                                    <div class="menu__item-title">Search coach</div>
+                                    <div class="menu__item-subtitle">around me</div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item-icon-arrow-wrap">
+                                <img src="assets/images/icons/arrow_right-icon.svg"
+                                     alt="arrow" class="menu__item-icon-arrow">
+
+                                <svg class="menu__item-icon-arrow_white" id="Calque_1" data-name="Calque 1"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5">
+                                    <defs>
+                                        <style>.cls-1 {
+                                                fill: #FFFFFF;
+                                            }</style>
+                                    </defs>
+                                    <g id="Arrow_right_orange" data-name="Arrow right orange">
+                                        <path id="Icon_ionic-ios-arrow-round-forward"
+                                              data-name="Icon ionic-ios-arrow-round-forward" class="cls-1"
+                                              d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+
+                        <!--  Item  -->
+                        <a href="#" class="menu__item-wrap">
+                            <div class="menu__item-left">
+                                <div class="menu__item-icon-wrap">
+                                    <img src="assets/images/icons/menu/craftsment-icon.svg"
+                                         alt="small ads" class="menu__item-icon">
+                                </div>
+
+                                <div class="menu__item-text-block">
+                                    <div class="menu__item-title">Search craftsmen</div>
+                                    <div class="menu__item-subtitle">around me</div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item-icon-arrow-wrap">
+                                <img src="assets/images/icons/arrow_right-icon.svg"
+                                     alt="arrow" class="menu__item-icon-arrow">
+
+                                <svg class="menu__item-icon-arrow_white" id="Calque_1" data-name="Calque 1"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5">
+                                    <defs>
+                                        <style>.cls-1 {
+                                                fill: #FFFFFF;
+                                            }</style>
+                                    </defs>
+                                    <g id="Arrow_right_orange" data-name="Arrow right orange">
+                                        <path id="Icon_ionic-ios-arrow-round-forward"
+                                              data-name="Icon ionic-ios-arrow-round-forward" class="cls-1"
+                                              d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+
+                        <!--  Item  -->
+                        <a href="#" class="menu__item-wrap">
+                            <div class="menu__item-left">
+                                <div class="menu__item-icon-wrap menu__item-icon-wrap-burger">
+                                    <img src="assets/images/icons/menu/video-camera.svg"
+                                         alt="small ads" class="menu__item-icon menu__item-icon-camera">
+                                </div>
+
+                                <div class="menu__item-text-block">
+                                    <div class="menu__item-title">Remote work</div>
+                                    <div class="menu__item-subtitle">assitance</div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item-icon-arrow-wrap">
+                                <img src="assets/images/icons/arrow_right-icon.svg"
+                                     alt="arrow" class="menu__item-icon-arrow">
+
+                                <svg class="menu__item-icon-arrow_white" id="Calque_1" data-name="Calque 1"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5">
+                                    <defs>
+                                        <style>.cls-1 {
+                                                fill: #FFFFFF;
+                                            }</style>
+                                    </defs>
+                                    <g id="Arrow_right_orange" data-name="Arrow right orange">
+                                        <path id="Icon_ionic-ios-arrow-round-forward"
+                                              data-name="Icon ionic-ios-arrow-round-forward" class="cls-1"
+                                              d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+
+                        <!--  Item  -->
+                        <a href="#" class="menu__item-wrap active">
+                            <div class="menu__item-left">
+                                <div class="menu__item-icon-wrap menu__item-icon-wrap-burger">
+                                    <img src="assets/images/icons/menu/burger-menu_giftcard.jpg"
+                                         alt="small ads" class="menu__item-icon">
+                                </div>
+
+                                <div class="menu__item-text-block active">
+                                    <div class="menu__item-title">Gift card</div>
+                                    <div class="menu__item-subtitle">Offer coaching</div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item-icon-arrow-wrap">
+                                <img src="assets/images/icons/arrow_right-icon.svg"
+                                     alt="arrow" class="menu__item-icon-arrow">
+
+                                <svg class="menu__item-icon-arrow_white" id="Calque_1" data-name="Calque 1"
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5">
+                                    <defs>
+                                        <style>.cls-1 {
+                                                fill: #FFFFFF;
+                                            }</style>
+                                    </defs>
+                                    <g id="Arrow_right_orange" data-name="Arrow right orange">
+                                        <path id="Icon_ionic-ios-arrow-round-forward"
+                                              data-name="Icon ionic-ios-arrow-round-forward" class="cls-1"
+                                              d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="main-logo__wrap">
+                    <a href="#" class="main-logo__link">
+                        <img src="assets/images/icons/logo_mcb.svg" alt="logo" class="main-logo__img">
+                    </a>
+                </div>
+                <div class="header-top__center">
+                    <div class="header-title">DIY : Home & Garden</div>
+                    <nav class="menu header-menu">
+                        <ul class="header-menu__list">
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link active">Home</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">Coachs</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">
+                                    Remote
+                                    <span class="header-menu__link_hide">work assistance</span>
+                                </a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">Craftsmen</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">Tutorials</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-top__right-block">
+                    <div class="header-top__register">
+                        <a href="#" class="header-register">Register my business</a>
+                    </div>
+                    <div class="header-top__cart">
+                        <img src="assets/images/icons/shopping-cart.svg" alt=""
+                             class="icon header__icon header__icon-cart">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--  / Header  -->
+
+<section class="section__checkout bg-gray">
+    <div class="container">
+
+        <div class="back-section">
+            <a href="#" class="back-section__link">
+                <span class="back-section__img">
+                    <svg class="button__payment-arrow" id="Calque_1" height="14px" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.25 13.5">
+                        <defs><style>.cls-1{fill:#575757;}</style></defs>
+                        <g id="Arrow_right_orange" data-name="Arrow right orange">
+                            <path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" class="cls-1" d="M12.92.25a.92.92,0,0,0,0,1.3l4.27,4.28H.91a.92.92,0,0,0,0,1.83H17.18L12.9,11.94a.93.93,0,0,0,0,1.3.91.91,0,0,0,1.29,0h0L20,7.4h0a1.32,1.32,0,0,0,.19-.29.84.84,0,0,0,.07-.35A.9.9,0,0,0,20,6.12L14.2.28a.91.91,0,0,0-1.28,0Z"></path>
+                        </g>
+                    </svg>
+                </span>
+
+                <span class="back-section__text">Retour au panier</span>
+            </a>
+        </div>
+
+        <form class="checkout__content">
+            <div class="checkout__content-left">
+                <div class="form__title">FINALISER VOTRE COMMANDE</div>
+                <div class="form__subtitle">Coordonnées</div>
+
+                <div class="form__input-wrap-inner">
+                    <!--    Form input  -->
+                    <div class="form__input-wrap">
+                        <label for="surname" class="input-wrap__label">Prénom*</label>
+                        <input id="surname" type="text" placeholder="Votre prénom…" class="input-wrap__input">
+                    </div>
+
+                    <!--    Form input  -->
+                    <div class="form__input-wrap">
+                        <label for="name" class="input-wrap__label">Nom*</label>
+                        <input id="name" type="text" placeholder="Votre prénom…" class="input-wrap__input">
+                    </div>
+                </div>
+
+                <!--    Form input  -->
+                <div class="form__input-wrap">
+                    <label for="mail" class="input-wrap__label">Adresse e-mail*</label>
+                    <input id="mail" type="email" placeholder="prenom@mal.com" class="input-wrap__input">
+                </div>
+
+                <div class="form__input-wrap-inner">
+                    <!--    Form input  -->
+                    <div class="form__input-wrap">
+                        <label for="number" class="input-wrap__label">Numéro de téléphone*</label>
+                        <input id="number" type="number" placeholder="06….." class="input-wrap__input">
+                    </div>
+
+                    <!--    Form input  -->
+                    <div class="form__input-wrap">
+                        <label for="select__pays" class="input-wrap__label">Pays*</label>
+
+                        <!--    Form select    -->
+                        <div class="custom-select__wrap custom-select__wrap_pays" id="select__pays">
+                            <ul class="custom-select__default-option custom-select__default-option_pays"
+                                data-value="France" id="pays__default-option">
+
+                                <li class="custom-select__default-item-wrap">
+                                    <div class="checkout__subtitle-selects-country">
+                                        <div class="checkout__pays-wrap">
+                                            <div class="checkout__pays-country">France</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="checkout__subtitle-selects-arrow">
+                                        <img src="assets/images/arrow-down.svg" alt="arrow-down">
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                            <!--    Form select options    -->
+                            <ul class="custom-select__options-list custom-select__options-list_pays"
+                                id="areas-level__options-list">
+
+                                <!--    Select item     -->
+                                <li class="custom-select__item-wrap" data-value="1">
+                                    <div class="checkout__subtitle-selects-country">
+                                        <div class="checkout__pays-wrap">
+                                            <div class="checkout__pays-country">France</div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!--    Select item     -->
+                                <li class="custom-select__item-wrap" data-value="2">
+                                    <div class="checkout__subtitle-selects-country">
+                                        <div class="checkout__pays-wrap">
+                                            <div class="checkout__pays-country">France</div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!--    Select item     -->
+                                <li class="custom-select__item-wrap" data-value="3">
+                                    <div class="checkout__subtitle-selects-country">
+                                        <div class="checkout__pays-wrap">
+                                            <div class="checkout__pays-country">France</div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!--    Select item     -->
+                                <li class="custom-select__item-wrap" data-value="4">
+                                    <div class="checkout__subtitle-selects-country">
+                                        <div class="checkout__pays-wrap">
+                                            <div class="checkout__pays-country">France</div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!--    Select item     -->
+                                <li class="custom-select__item-wrap" data-value="5">
+                                    <div class="checkout__subtitle-selects-country">
+                                        <div class="checkout__pays-wrap">
+                                            <div class="checkout__pays-country">France</div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!--    Select item     -->
+                                <li class="custom-select__item-wrap" data-value="6">
+                                    <div class="checkout__subtitle-selects-country">
+                                        <div class="checkout__pays-wrap">
+                                            <div class="checkout__pays-country">Germany</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--    Form input  -->
+                <div class="form__input-wrap">
+                    <label for="address" class="input-wrap__label">Adresse*</label>
+                    <input id="address" type="email" placeholder="Votre adresse…" class="input-wrap__input">
+                </div>
+
+                <!--    Form input  -->
+                <div class="form__input-wrap">
+                    <label for="appartement" class="input-wrap__label">Appartement, suite, etc..(facultatif)</label>
+                    <input id="appartement" type="email" placeholder="Votre adresse…" class="input-wrap__input">
+                </div>
+
+                <div class="form__input-wrap-inner">
+                    <!--    Form input  -->
+                    <div class="form__input-wrap">
+                        <label for="code" class="input-wrap__label">Code postal*</label>
+                        <input id="code" type="number" placeholder="XXXXX" class="input-wrap__input">
+                    </div>
+
+                    <!--    Form input  -->
+                    <div class="form__input-wrap">
+                        <label for="ville" class="input-wrap__label">Ville*</label>
+                        <input id="ville" type="text" placeholder="Votre ville…" class="input-wrap__input">
+                    </div>
+                </div>
+            </div>
+
+            <div class="checkout__content-right">
+                <div class="content-right__top">
+                    <div class="content-right__top-description">Informations nous permettant de traiter au mieux votre
+                        commande :
+                    </div>
+
+                    <div class="content-right__top-img">
+                        <img src="assets/images/paint_tools.png" alt="paint tools">
+                    </div>
+
+                    <textarea class="content-right__top-message"
+                              placeholder="(Expliquez brièvement vos travaux…ou saisissez le nom du bénéficiaire en cas de carte cadeau.)"></textarea>
+                </div>
+
+                <div class="content-right__bottom">
+                    <div class="content-right__bottom-title">Récapitulatif et Paiement</div>
+
+                    <div class="content-right__bottom-list-wrap">
+                        <div class="content-right__bottom-list">
+                            <div class="content-right__bottom-item">
+                                <div class="content-right__bottom-item-name">Outils et Matériaux</div>
+                                <div class="content-right__bottom-item-price">00,00€</div>
+                            </div>
+
+                            <div class="content-right__bottom-item">
+                                <div class="content-right__bottom-item-name">
+                                    <span class="content-right__bottom-item-name-quantity">1x</span> 1h visite conseil
+                                </div>
+                                <div class="content-right__bottom-item-price">78,00€</div>
+                            </div>
+                        </div>
+
+                        <div class="content-right__bottom-list">
+                            <div class="content-right__bottom-item">
+                                <input id="promo-input" class="content-right__bottom-item-input" placeholder="Carte cadeau ou code promo" type="text">
+
+                                <button id="promo" class="button-accent button-accent_orange button__content-right__bottom-list button__content-right__bottom-list-second">
+                                    Appliquer
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="content-right__bottom-list">
+                            <div class="content-right__bottom-item">
+                                <div class="content-right__bottom-item-name">Sous total</div>
+                                <div class="content-right__bottom-item-price">78,00€</div>
+                            </div>
+                        </div>
+
+                        <div class="content-right__bottom-list">
+                            <div class="content-right__bottom-item">
+                                <div class="content-right__bottom-item-name">Total de la commande</div>
+                                <div class="content-right__bottom-item-price">78,00€ <span
+                                            class="content-right__bottom-item-ttc">TTC</span></div>
+                            </div>
+                            <div class="content-right__bottom-item-inclus">TVA de 13,00€ inclus</div>
+                        </div>
+                    </div>
+
+                    <div class="checkout__btns">
+                        <div class="checkout__input-radio-wrap">
+                            <input name="paiement" id="paiement__card" type="radio" checked class="checkout__input-radio">
+                            <label for="paiement__card" class="choose-amount__purchase-btn choose-amount__purchase-btn-active checkout__purchase-btn checkout__purchase-btn-first checkout__input-radio-label">
+                                <span class="choose-amount__purchase-btn-coach checkout__purchase-btn-coach">
+                                Paiement CB
+                                </span>
+
+
+                                <div class="choose-amount__purchase-icons checkout__purchase-btn-imgs">
+                                    <div class="choose-amount__purchase-ico">
+                                        <img src="assets/images/lock.jpg" alt="lock" class="choose-amount__purchase-img">
+                                    </div>
+
+                                    <div class="choose-amount__purchase-ico">
+                                        <img src="assets/images/visa.jpg" alt="visa" class="choose-amount__purchase-img">
+                                    </div>
+
+                                    <div class="choose-amount__purchase-ico">
+                                        <img src="assets/images/mastercard.jpg" alt="mastercard"
+                                             class="choose-amount__purchase-img">
+                                    </div>
+
+                                    <div class="choose-amount__purchase-ico">
+                                        <img src="assets/images/amex.jpg" alt="amex"
+                                             class="choose-amount__purchase-img">
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+
+                        <div class="checkout__input-radio-wrap">
+                            <input name="paiement" id="paiement__par" type="radio" class="checkout__input-radio">
+                            <label for="paiement__par" class="choose-amount__purchase-btn checkout__purchase-btn checkout__purchase-btn-second checkout__input-radio-label">
+                                <span class="choose-amount__purchase-btn-coach checkout__purchase-btn-coach">
+                                Paiement par chèque <span class="checkout__purchase-btn-coach-second">et/ou C.E.S.U</span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="checkout__card checkout__purchase active">
+                        <!--    Form input  -->
+                        <div class="form__input-wrap">
+                            <label for="card-number" class="input-wrap__label">Numéro de carte *</label>
+                            <input id="card-number" type="text" placeholder="XXXX-XXXX-XXXX-XXXX" class="card-input__number">
+                        </div>
+
+                        <div class="form__input-wrap-inner">
+                            <!--    Form input  -->
+                            <div class="form__input-wrap">
+                                <label for="card-date" class="input-wrap__label">Date d’expiration *</label>
+                                <input id="card-date" type="text" placeholder="XX/XX" class="card-input__date">
+                            </div>
+
+                            <!--    Form input  -->
+                            <div class="form__input-wrap">
+                                <label for="card-code" class="input-wrap__label">Cryptogramme visuel *</label>
+                                <input id="card-code" type="text" placeholder="XXXX" class="card-input__code">
+                            </div>
+                        </div>
+
+                        <div class="choose-amount__purchase-icons checkout__purchase-btn-imgs">
+                            <div class="choose-amount__purchase-ico">
+                                <img src="assets/images/lock.jpg" alt="lock" class="choose-amount__purchase-img">
+                            </div>
+
+                            <div class="choose-amount__purchase-ico">
+                                <img src="assets/images/visa.jpg" alt="visa" class="choose-amount__purchase-img">
+                            </div>
+
+                            <div class="choose-amount__purchase-ico">
+                                <img src="assets/images/mastercard.jpg" alt="mastercard" class="choose-amount__purchase-img">
+                            </div>
+
+                            <div class="choose-amount__purchase-ico">
+                                <img src="assets/images/amex.jpg" alt="amex" class="choose-amount__purchase-img">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="checkout__letter checkout__purchase">
+                        <div class="checkout__letter-text-bold">1) Cliquer sur « commander »</div>
+                        <div class="checkout__letter-text-bold">2) Envoyer votre chèque :</div>
+
+                        <div class="checkout__letter-text-bold checkout__letter-ordre">Ordre :</div>
+                        <div class="checkout__letter-text">Mon Coach Brico</div>
+
+                        <div class="checkout__letter-text-bold checkout__letter-adresse">Adresse :</div>
+                        <div class="checkout__letter-text"> 177, bis avenue Louis Lumière 34400 Lunel</div>
+                    </div>
+
+                    <div class="checkout__agree">
+                        <input type="checkbox" id="checkout__checkbox-agree" checked="checked">
+                        <label for="checkout__checkbox-agree" class="checkout__agree-description">
+                            J’ai lu et j’accepte <a href="#">les conditions générales*</a>
+                        </label>
+                    </div>
+
+                    <button id="checkout_main-btn" type="submit" class="button-accent button__content-right__bottom">Commander</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!--    Footer    -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-inner">
+
+            <div class="footer-top">
+                <div class="main-logo__wrap footer-logo__wrap">
+                    <a href="#" class="main-logo__link">
+                        <img src="assets/images/icons/logo_mcb.svg" alt="logo" class="main-logo__img">
+                    </a>
+                </div>
+                <div class="footer-top__copyright">
+                    Copyright ©2020 MonCoachBrico, tous droits réservés.
+                </div>
+            </div>
+
+            <div class="footer-middle">
+                <div class="footer-middle__inner">
+
+                    <div class="footer-middle__columns-wrap">
+                        <!-- First column -->
+                        <div class="footer-middle__column footer-middle__column_first">
+                            <div class="footer-middle__column-title">
+                                DIY
+                            </div>
+                            <div class="footer-middle__column-list-wrap">
+                                <ul class="footer-middle__list">
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Coachs</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Remote assistance</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Craftsmen</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Tutorials</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Speed quote</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Gifcard</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Second column -->
+                        <div class="footer-middle__column footer-middle__column_second">
+                            <div class="footer-middle__column-title">
+                                Pro
+                            </div>
+                            <div class="footer-middle__column-list-wrap">
+                                <ul class="footer-middle__list">
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Become a coach</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">Register my business</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Third column -->
+                        <div class="footer-middle__column footer-middle__column_third">
+                            <div class="footer-middle__column-title">
+                                Société
+                            </div>
+                            <div class="footer-middle__column-list-wrap">
+                                <ul class="footer-middle__list">
+                                    <li class="footer-middle__list-item">
+                                        <a href="#" class="footer-middle__list-link">About us</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="tel:0970805381" class="footer-middle__list-link">Call : 09 70 80 53
+                                            81</a>
+                                    </li>
+                                    <li class="footer-middle__list-item">
+                                        <a href="mailto:contact@moncoachbrico.com" class="footer-middle__list-link">
+                                            Contact mail : contact@moncoachbrico.com
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--    Socials    -->
+                    <div class="footer-middle__socials-wrap">
+                        <div class="footer-middle__socials-item">
+                            <img src="assets/images/icons/facebook-icon.svg" alt=""
+                                 class="footer-middle__socials-icon">
+                        </div>
+                        <div class="footer-middle__socials-item">
+                            <img src="assets/images/icons/twitter-icon.svg" alt=""
+                                 class="footer-middle__socials-icon">
+                        </div>
+                        <div class="footer-middle__socials-item">
+                            <img src="assets/images/icons/linkedin-icon.svg" alt=""
+                                 class="footer-middle__socials-icon">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom__inner">
+                    <div class="footer-bottom__address">
+                        MonCoachBrico 177 bis, Avenue Louis Lumière 34400 Lunel France
+                    </div>
+
+                    <div class="footer-bottom__terms">
+                        <ul class="footer-bottom__terms-list">
+                            <li class="footer-bottom__terms-item">
+                                <a href="" class="footer-bottom__terms-link">
+                                    Conditions générales d’utilisation
+                                </a>
+                            </li>
+                            <li class="footer-bottom__terms-item">
+                                <a href="" class="footer-bottom__terms-link">
+                                    Politique relative à la protection des données personnelles
+                                </a>
+                            </li>
+                            <li class="footer-bottom__terms-item">
+                                <a href="" class="footer-bottom__terms-link">
+                                    Politique en matière de cookies
+                                </a>
+                            </li>
+                            <li class="footer-bottom__terms-item">
+                                <a href="" class="footer-bottom__terms-link">
+                                    Règles de référencement
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--  / Footer    -->
+
+<!--  JQuery  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+
+<!--   Slick slider   -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/inputmask@5.0.5/index.min.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/inputmask@5.0.5/dist/jquery.inputmask.min.js"></script>
+
+
+<!--  main js file  -->
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

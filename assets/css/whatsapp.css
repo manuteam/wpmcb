@@ -1,0 +1,375 @@
+.whatsapp__content-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp__content-wrap_remote {
+
+}
+
+.whatsapp__left-side {
+    margin-right: 60px;
+}
+
+.whatsapp__left-side_work-assistance {
+    display: flex;
+    flex-direction: row;
+}
+
+.whatsapp__left-side_remote {
+    width: unset;
+}
+
+.whatsapp-remote__steps-wrap {
+    max-width: 444px;
+    min-height: 316px;
+    border-radius: 20px;
+    padding: 30px 35px 30px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.whatsapp-remote__steps-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.whatsapp-remote__steps-item:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.whatsapp-remote__steps-item-num-wrap {
+    margin-right: 10px;
+}
+
+.whatsapp-remote__steps-item-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 29px;
+    height: 29px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: var(--accent-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.whatsapp-remote__steps-item-descr_bold {
+    font-weight: 600;
+}
+
+.whatsapp__right-side {
+    width: 50%;
+}
+
+.whatsapp__right-side_work-assistance {
+    width: 32%;
+}
+
+.whatsapp__right-side_remote {
+    width: 30%;
+}
+
+.whatsapp__right-side-single-price-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.whatsapp__accent-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--accent-color);
+}
+
+.whatsapp__accent-text_remote {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+ul.whatsapp__right-side-remote-list {
+    margin-left: 15px;
+}
+
+.whatsapp__right-side-remote-list-item {
+    position: relative;
+    color: var(--light-gray);
+}
+
+.whatsapp__right-side-remote-list-item:before {
+    position: absolute;
+    content: '-';
+    display: block;
+    top: -1px;
+    left: -13px;
+}
+
+.single-price__text {
+    margin-bottom: 15px;
+}
+
+.single-price__text,
+.single-price__price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.single-price__subtext {
+    font-family: 'Maax', 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--light-gray);
+}
+
+.single-price__price {
+    color: var(--accent-color);
+}
+
+.whatsapp__img {
+    max-height: 485px;
+    border-radius: 20px;
+}
+
+.whatsapp__img_mini {
+    margin-right: 15px;
+    max-width: 260px;
+    height: auto;
+}
+
+.whatsapp__right-side-text {
+    margin-bottom: 50px;
+}
+
+.whatsapp__right-side-text_remote {
+    margin-bottom: 20px;
+}
+
+.whatsapp__right-side-text p:first-child {
+    margin-bottom: 25px;
+}
+
+.button-accent_green-whatsapp {
+    max-width: 328px;
+    width: 100%;
+    min-height: 66px;
+}
+
+
+
+.button-accent_green-whatsapp_hide {
+    display: none;
+}
+
+.whatsapp__links-wrap {
+    margin-top: 15px;
+}
+
+.whatsapp__links-main-link-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #245F64;
+}
+
+.whatsapp__links-icon-wrap {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: transparent linear-gradient(180deg, #60FD7F 0%, #0CB827 100%) 0% 0% no-repeat padding-box;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.whatsapp__links-main-link {
+    display: block;
+    margin-left: 5px;
+    color: #245F64;
+}
+
+.whatsapp__links-icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    width: 15px;
+    height: 15px;
+}
+
+.whatsapp__links-stores-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp__links-stores-link {
+    display: block;
+}
+
+.whatsapp__links-stores-img {
+    width: 115px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.whatsapp__links-stores-link:first-child {
+    margin-right: 10px;
+}
+
+
+/*  MEDIA   */
+@media screen and (max-width: 1200px) {
+    .whatsapp__img_mini {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .whatsapp__content-wrap {
+        flex-direction: column;
+    }
+
+    .whatsapp__left-side {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .whatsapp__right-side {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .whatsapp__right-side-text {
+        margin-bottom: 30px;
+    }
+
+    .whatsapp__links-wrap {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .section__whatsapp .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .whatsapp-remote__steps-wrap {
+        margin: 0 15px;
+    }
+
+    .section__whatsapp .section__title {
+        padding: 0 15px;
+    }
+
+    .whatsapp__left-side {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .whatsapp__left-side_remote {
+        width: auto;
+    }
+
+    .whatsapp__img {
+        width: 100%;
+        border-radius: 0;
+        height: auto;
+        max-height: unset;
+    }
+
+    .button-accent_green-whatsapp_remote {
+        display: none;
+    }
+
+    .button-accent_green-whatsapp_hide {
+        display: block;
+    }
+
+    .whatsapp__links-wrap_remote {
+        display: none;
+    }
+
+    .whatsapp__right-side_remote .whatsapp__right-side-single-price-wrap {
+        margin-bottom: 0;
+    }
+
+}
+
+@media screen and (width: 375px) {
+    .section__whatsapp_remote .container {
+        margin: 0;
+    }
+
+    .section__whatsapp_remote-second .whatsapp-remote__steps-wrap {
+        margin: 0;
+    }
+
+    .section__whatsapp_remote-second {
+        margin: 0 35px;
+    }
+
+    .section.section__whatsapp .section__title {
+        max-width: 300px;
+    }
+
+    .section.section__whatsapp h2.section__title_remote-second {
+        max-width: 280px;
+    }
+
+    .whatsapp__img {
+        width: 100%;
+        height: 190px;
+    }
+
+    .section__whatsapp_remote .whatsapp__img {
+        width: 375px;
+        height: 332px;
+    }
+
+    .section__whatsapp_remote .whatsapp__right-side_work-assistance .section__sm-title {
+        letter-spacing: -0.5px;
+    }
+
+
+
+    .whatsapp__right-side {
+        padding: 0 35px;
+    }
+
+    .whatsapp__right-side-text {
+        margin-bottom: 20px;
+    }
+
+    .section__whatsapp_remote-third {
+        padding-bottom: 30px;
+    }
+}
+/*==========*/

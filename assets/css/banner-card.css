@@ -1,0 +1,261 @@
+/*    banner-card    */
+.banner-card__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 30px 75px;
+    min-height: 150px;
+    background-color: #226C79;
+    border-radius: 20px;
+}
+
+.banner-card__left {
+    display: flex;
+}
+
+.banner-card__img {
+    max-width: 97px;
+}
+
+.banner-card__title-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 92px;
+}
+
+.banner-card__title {
+    font-size: 49px;
+    color: #f7f7f7;
+    opacity: 0.28;
+    margin-bottom: 20px;
+}
+
+.banner-card__subtitle {
+    font-size: 22px;
+    line-height: 27px;
+    color: #ffffff;
+    margin-left: 45px;
+}
+
+.banner-offer__wrapper .banner-card__subtitle {
+    display: none;
+}
+
+.section__banner-card_remote .banner-card__wrapper_first {
+    margin-bottom: 30px;
+}
+
+.button-accent_orange-banner-card {
+    margin: 0;
+    max-width: 168px;
+}
+/*   / banner-card    */
+
+
+/*  banner-offer    */
+.banner-offer__wrapper {
+    background: #575757;
+    margin-bottom: 30px;
+    padding-left: 35px;
+}
+
+.banner-offer__title-wrap {
+    margin-left: 35px;
+}
+
+.banner-offer__title {
+    margin: 0;
+}
+/*   /banner-offer    */
+
+/*    for tutoriels-video     */
+.section__banner-offer-video {
+    padding-bottom: 0;
+}
+
+.section__banner-offer-video_mobile {
+    display: none;
+}
+
+/*    aside block basic     */
+
+.banner-offer__basic .banner-card__wrapper {
+    min-height: 473px;
+    padding: 30px 40px 55px;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 25px;
+}
+
+.banner-offer__basic .banner-card__title-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 0;
+    width: 100%;
+}
+
+.banner-offer__basic .banner-card__title {
+    max-width: 150px;
+    line-height: 39px;
+    margin-bottom: 182px;
+}
+
+.banner-offer__basic .banner-card__subtitle {
+    font-size: 15px;
+    line-height: 19px;
+    margin: 0 auto;
+}
+
+.banner-offer__basic .button-accent_orange-banner-card {
+    margin: 0 auto;
+}
+
+/*   MEDIA   */
+
+/* 992px */
+@media screen and (max-width: 992px) {
+
+    .banner-offer__title {
+        margin-bottom: 20px;
+    }
+
+    .banner-card__title-wrap {
+         align-items: center;
+         margin: 0 0 20px 0;
+        order: -1;
+    }
+
+    .banner-card__subtitle {
+        margin-left: 0;
+    }
+
+    .banner-card__wrapper {
+        flex-direction: column;
+    }
+
+    .banner-card__left {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-card__img {
+        max-width: 133px;
+        margin-bottom: 20px;
+    }
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+    .banner-offer__title {
+        font-size: 39px;
+    }
+}
+
+/* 576px */
+@media screen and (max-width: 576px) {
+    .banner-card__wrapper {
+        min-height: 370px;
+        padding: 30px 40px;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .banner-card__title-wrap {
+        margin: 0;
+        min-height: 235px;
+        justify-content: space-between;
+    }
+
+    .banner-card__title {
+        line-height: 40px;
+        margin-bottom: 115px;
+    }
+
+    .banner-offer__title span,
+    .section__banner-offer-video {
+        display: none;
+    }
+
+    .section__banner-offer-video_mobile {
+        display: block;
+        padding-bottom: 0;
+    }
+
+    .banner-offer__title {
+        font-size: 33px;
+        line-height: 39px;
+        margin-bottom: 25px;
+    }
+
+    .banner-offer__wrapper .banner-card__subtitle {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .banner-card__subtitle {
+        margin-left: 0;
+        text-align: center;
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .section__banner-offer_coachs {
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+
+    .banner-offer__cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-gift-card__wrapper {
+        order: -1;
+        margin-bottom: 30px;
+    }
+
+    .banner-offer__title-wrap {
+        min-height: 0;
+    }
+
+    .banner-card__img {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (width: 375px) {
+    .section__banner-card_template-job,
+    .section__banner-offer_tutos-filters,
+    .section__banner-offer_tutos-blog {
+        background-color: var(--bg-gray-color);
+        padding-bottom: 0;
+    }
+
+    .section__banner-card_home {
+        padding-bottom: 15px;
+    }
+
+    .banner-offer__wrapper,
+    .section__banner-offer_tutos-blog .banner-gift-card__wrapper,
+    .section__banner-offer_tutos-filters .banner-gift-card__wrapper {
+        margin-bottom: 0;
+    }
+
+    .section__banner-offer_coachs .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section__banner-offer_coachs .banner-card__wrapper:not(:first-child) {
+        margin-bottom: 30px;
+    }
+
+}

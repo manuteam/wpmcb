@@ -1,0 +1,179 @@
+.section__areas {
+    padding-bottom: 0;
+}
+
+.areas__content-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.areas__content-text-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.areas__content-title {
+
+}
+
+.areas__content-text {
+    font-family: 'Maax', 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--dark-gray);
+}
+
+.areas__category-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 67%;
+}
+
+.areas__category-wrap-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.areas__category-wrap-row:first-child {
+    margin-right: 15px;
+}
+
+.areas__category-item {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 112px;
+    height: 112px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px #0000000D;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.areas__category-item-link:not(:last-child) {
+    margin-right: 15px;
+}
+
+.areas__category-item-link {
+    display: block;
+    text-decoration: none;
+}
+
+.areas__category-item-icon-wrap {
+    margin-bottom: 3px;
+}
+
+.areas__category-item-icon {
+    height: 42px;
+    width: auto;
+}
+
+.areas__category-item-title {
+    font-family: 'Maax', 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--dark-gray);
+}
+
+
+
+
+/* MEDIA */
+
+/*   1200px   */
+@media screen and (max-width: 1200px) {
+    .areas__content-wrap {
+        flex-direction: column;
+    }
+
+    .areas__content-text-wrap {
+        margin-bottom: 30px;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .areas__category-wrap {
+        width: unset;
+    }
+
+
+    .areas__categories_tutos-blog {
+        margin: 0 0 30px 0;
+    }
+
+    .areas__category-row_tutos-blog {
+        margin: 15px auto 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .areas__categories_tutos-blog {
+        margin-bottom: 0;
+    }
+
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+    .areas__category-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .areas__category-item-link {
+        margin-bottom: 15px;
+    }
+
+    .areas__category-wrap-row:first-child {
+        margin-right: 0;
+    }
+}
+
+/* 576px */
+@media screen and (max-width: 576px) {
+    .areas__category-item {
+        text-align: center;
+        width: 90px;
+        height: 90px;
+    }
+
+    .areas__category-item-link:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (width: 375px) {
+    .areas__category-row {
+        margin-top: 10px;
+    }
+
+    .areas__category-row:first-child {
+        margin: 0 0 10px 0;
+    }
+
+    .areas__category-item-link:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .areas__category-item-link {
+        margin-bottom: 0;
+    }
+
+    .areas__category-row_home {
+        margin-top: 20px;
+    }
+}
+/*=======*/

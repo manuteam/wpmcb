@@ -1,0 +1,1376 @@
+.diy-tutorials__wrap-subtitle-search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.diy-tutorials__subtitle-descr {
+    margin-bottom: 40px;
+}
+
+.diy-tutorials__search-wrap {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+.diy-tutorials__search-input {
+    width: 320px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #707070;
+}
+
+.diy-tutorials__search-input:focus {
+    outline: none;
+}
+
+.diy-tutorials__search-icon {
+    width: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.diy-tutorials__most-viewed-wrap {
+    margin-bottom: 25px;
+}
+
+.most-viewed__item-bottom-icon {
+    width: auto;
+    height: 18px;
+}
+
+.most-viewed__title,
+.recent-post__title {
+    margin-left: 36px;
+    margin-bottom: 30px;
+}
+
+.most-viewed__items-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.most-viewed__item-wrap {
+    position: relative;
+    padding: 20px 18px 7px 18px;
+    max-width: 260px;
+    width: 100%;
+    min-height: 460px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.most-viewed__item-wrap:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent linear-gradient(180deg, #00000089 0%, #191919A0 17%, #8A8A8A00 45%, #E8E8E858 89%, #FFFFFF6E 100%) 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 0.7;
+    z-index: 0;
+}
+
+.most-viewed__item-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #ffffff;
+}
+
+.most-viewed__item-title {
+    position: relative;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.most-viewed__item-title:after {
+    position: absolute;
+    content: '';
+    display: block;
+    bottom: -10px;
+    left: 0;
+    height: 1px;
+    width: 95px;
+    background-color: #ffffff;
+}
+
+.most-viewed__item-subtitle {
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 13px;
+    z-index: 1;
+}
+
+/* Most viewed card bottom panel */
+.most-viewed__item-bottom {
+    position: absolute;
+    height: 50px;
+    padding: 0 9px 0 13px;
+    max-width: 240px;
+    width: 100%;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.most-viewed__item-bottom-likes-wrap {
+    margin-right: 20px;
+}
+
+.most-viewed__item-bottom-socials-wrap,
+.most-viewed__item-bottom-likes-wrap,
+.most-viewed__item-bottom-comments-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+
+.most-viewed__item-bottom-icon:not(:last-child) {
+    margin-right: 8px;
+}
+
+.most-viewed__item-bottom-likes-num,
+.most-viewed__item-bottom-comments-num {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 19px;
+    color: #ED0014;
+}
+
+.most-viewed__item-bottom-comments-num {
+    color: #00A7F9;
+}
+
+.most-viewed__item-bottom-icon_likes {
+    height: 16px;
+    cursor: pointer;
+}
+
+.most-viewed__item-bottom-icon_comments {
+    height: 17px;
+}
+
+.most-viewed__item-bottom-play-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #0000000D;
+    padding-left: 3px;
+    cursor: pointer;
+}
+
+.most-viewed__item-bottom-play-wrap:hover {
+    background-color: #fff8f8;
+}
+
+.most-viewed__item-bottom-play-wrap:active {
+    background-color: #b5b5b5;
+}
+
+/*   Recent post   */
+.recent-post__items-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.recent-post__item-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 140px;
+    max-width: 350px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.recent-post__left {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.recent-post__left-user-photo-wrap {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+.recent-post__left-user-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.recent-post__right {
+    width: 60%;
+}
+
+.recent-post__right-head {
+    margin-bottom: 10px;
+}
+
+.recent-post__right-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.recent-post__right-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.recent-post__right-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent-post__right-bottom-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.recent-post__right-bottom-level-wrap {
+    margin-right: 15px;
+}
+
+.recent-post__right-bottom-level-top,
+.recent-post__right-bottom-price-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.recent-post__right-bottom-icon {
+    height: 11px;
+    width: auto;
+    margin-right: 3px;
+}
+
+.recent-post__right-bottom-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: var(--light-gray);
+}
+
+.recent-post__right-bottom-bar-wrap {
+    width: 55px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #fef0e2;
+}
+
+.recent-post__right-bottom-level-bar-inner {
+    border-radius: 2px;
+    width: 50%;
+    height: 100%;
+    background-color: var(--accent-color);
+}
+
+.recent-post__right-bottom-price-bar-inner {
+    border-radius: 2px;
+    width: 10%;
+    height: 100%;
+    background-color: var(--accent-color);
+}
+
+.recent-post__right-bottom-read {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--accent-color);
+}
+
+/*      DIY Tutorials: Living Room      */
+
+/*    custom select  */
+/*.custom-select__wrap {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.custom-select__wrap.active ul.custom-select__options-list {
+    opacity: 1;
+    pointer-events: unset;
+}
+
+ul.custom-select__default-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.custom-select__options-list {
+    display: flex;
+    pointer-events: none;
+    opacity: 0;
+    position: absolute;
+    z-index: 10;
+    top: 101%;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: var(--bg-gray-color);
+    transition: all ease .2s;
+}
+
+ul.custom-select__default-option,
+ul.custom-select__options-list {
+    min-width: 170px;
+    min-height: 50px;
+    border: 1px solid var(--bg-dark-grey);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+
+li.custom-select__default-item-wrap,
+li.custom-select__item-wrap {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.custom-select__item-wrap {
+    justify-content: flex-start;
+    min-height: 33px;
+}
+
+li.custom-select__item-wrap:hover .custom-select__text {
+    !*border-bottom: 1px solid red;*!
+    !*border-radius: 10px;*!
+    font-weight: 600;
+}
+
+li.custom-select__item-wrap:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.custom-select__default-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.custom-select__img-wrap {
+    margin-right: 15px;
+}
+
+.custom-select__img {
+    width: 29px;
+    height: auto;
+}
+
+.custom-select__text {
+    font-family: 'Maax', 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: var(--dark-gray);
+}*/
+
+.diy-tutorials__subtitle-selects {
+    display: flex;
+    max-width: 450px;
+    justify-content: space-between;
+    margin-bottom: 35px;
+
+}
+
+.diy-tutorials__subtitle-selects-item-progress {
+    width: 125px;
+}
+
+.diy-tutorials__subtitle-selects-arrow {
+    width: 8px;
+}
+
+.diy-tutorials__media-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.diy-tutorials__video-wrap {
+    width: 550px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.diy-tutorials__video-wrap-mobile {
+    display: none;
+}
+
+.video__item-wrap {
+    margin-bottom: 20px;
+}
+
+.most-viewed-media__title {
+    margin-left: 0;
+}
+
+.photos__items-wrap {
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.photo__item-wrap {
+    max-width: 100%;
+}
+
+.photo__right {
+    width: 70%;
+}
+/*     / DIY Tutorials: Living Room      */
+
+/*      DIY Tutorials: Tutoriels Video      */
+
+.tutoriels-video__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tutoriels-video__content {
+    max-width: 680px;
+}
+
+.main-video__wrap {
+    max-width: 100%;
+}
+
+.main-video__title {
+    margin-bottom: 30px;
+}
+
+.main-video__title:after {
+    bottom: -22px;
+}
+
+.main-video__item-bottom {
+    max-width: 660px;
+    padding-right: 20px;
+}
+
+.main-video__item-bottom-btns-wrap {
+    display: flex;
+}
+
+.main-video__item-bottom-range-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-video__item-bottom-pause-wrap {
+    margin-left: 10px;
+    padding-left: 0;
+}
+
+.main-video__item-bottom-range-wrap {
+    font-style: italic;
+}
+
+.main-video__item-bottom-bar-wrap {
+    width: 300px;
+    height: 4px;
+    background-color: var(--dark-gray);
+    border-radius: 20px;
+    position: relative;
+}
+
+.main-video__item-bottom-bar-time {
+    position: absolute;
+    font-size: 12px;
+    line-height: 14px;
+    top: -17px;
+    left: 130px;
+}
+
+.main-video__item-bottom-bar-inner {
+    position: relative;
+}
+
+.main-video__item-bottom-bar-inner:after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid var(--dark-gray);
+    background: var(--bg-white-color);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.comment-fabriquer {
+    background: var(--bg-white-color);
+    min-height: unset;
+    border-radius: 20px;
+    margin: 30px 0;
+    padding: 15px 20px 30px;
+}
+
+.comment-fabriquer__top-wrap {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.comment-fabriquer__wrap {
+    width: 90px;
+    margin-right: 0;
+}
+
+.comment-fabriquer__top-level-icon {
+    height: 20px;
+}
+
+.comment-fabriquer__top-level-text {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.comment-fabriquer__bottom-bar-wrap {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.comment-fabriquer__question {
+    max-width: 318px;
+}
+
+.comment-fabriquer__title {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+.comment-fabriquer__user-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment-fabriquer__user-name {
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #a5a5a5;
+    font-style: italic;
+}
+
+.comment-fabriquer__user-name-link {
+    color: #a5a5a5;
+}
+
+.comment-fabriquer__user-name-link:hover {
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+
+.comment-fabriquer__user-images {
+    width: 40px;
+    position: relative;
+}
+
+.comment-fabriquer__user-img {
+    border-radius: 50%;
+}
+
+.comment-fabriquer__user-diamond-wrap {
+    width: 20px;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+}
+
+.comment-fabriquer__user-diamond {
+    border-radius: 50%;
+}
+
+.comment-fabriquer__mid-wrap {
+    margin-top: 25px;
+}
+
+.comment-fabriquer__mid-wrap-title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.comment-fabriquer__mid-wrap-text:not(:last-child) {
+    margin-bottom: 20px;
+    color: #727272;
+}
+
+.diy-tutorials__most-viewed-main-video-wrap {
+    margin-bottom: 20px;
+}
+
+.main-video__smaller-title {
+    margin-bottom: 20px;
+}
+
+.most-viewed-main-video__item-wrap {
+    max-width: 330px;
+    min-height: 190px;
+    margin: 10px 0;
+}
+
+.most-viewed-main-video__item-bottom {
+    max-width: 310px;
+    padding-right: 10px;
+}
+
+.recent-post-main-video__item-wrap {
+    max-width: 330px;
+}
+
+.comment-fabriquer__btn {
+    width: 93px;
+    height: 93px;
+    font-size: 14px;
+    line-height: 18px;
+    background: #fff;
+    color: var(--dark-gray);
+    display: none;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(000, 000, 000, 0.12);
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+.comment-fabriquer__btn-descr_bold {
+    font-weight: 600;
+}
+
+.comment-fabriquer__btn.active {
+    box-shadow: none;
+    background: var(--button-accent-orange);
+    color: #fff;
+}
+
+.comment-fabriquer__btn:focus {
+    box-shadow: none;
+    background: var(--button-accent-orange);
+    color: #fff;
+}
+
+.comment-fabriquer__btn-bot {
+    display: none;
+    margin-top: 23px;
+}
+
+.comment-fabriquer__wrap_sm {
+    display: none;
+}
+
+.comment-fabriquer__question_sm {
+    display: none;
+}
+
+.comment-fabriquer__wrap_sm {
+    width: 53px;
+}
+
+/*     section__diy-tutorials_tutos-blog      */
+
+.section__diy-tutorials_tutos-blog {
+    padding-top: 0;
+}
+
+/*     #diy-tutorials__slider      */
+
+.custom-arrow_coachs {
+    position: absolute;
+    font-size: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+}
+
+.custom-arrow_coachs-prev  {
+    left: -60px;
+}
+
+.custom-arrow_coachs-next {
+    right: -50px;
+}
+
+.custom-arrow__coachs-icon {
+    width: 50px;
+}
+
+/*  aside block basic   */
+
+.basic__wrap {
+    min-height: 406px;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+}
+
+.basic__wrap .most-viewed__item-bottom-socials-wrap  {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    background: var(--bg-white-color);
+    min-height: 65px;
+    width: 365px;
+    border-radius: 71px 71px 0 0;
+    justify-content: center;
+}
+
+.tutoriels-basic__content .comment-fabriquer {
+    margin-top: 0;
+    border-radius: 0 0 20px 20px;
+}
+
+.tutoriels-basic__content .tutoriels-basic__top .most-viewed__item-bottom-likes-wrap {
+    margin-right: 30px;
+}
+
+.tutoriels-basic__content .tutoriels-basic__top .most-viewed__item-bottom-icon_likes {
+    height: 25px;
+}
+
+.tutoriels-basic__content .tutoriels-basic__top .most-viewed__item-bottom-icon_comments {
+    height: 26px;
+}
+
+.tutoriels-basic__content .tutoriels-basic__top .most-viewed__item-bottom-likes-wrap,
+.tutoriels-basic__content .tutoriels-basic__top .most-viewed__item-bottom-comments-wrap {
+    align-items: end;
+}
+
+.tutoriels-basic__line {
+    width: 100px;
+    border-bottom: 1px dashed #D6D6D6;
+    position: absolute;
+    bottom: 0;
+}
+
+.comment-fabriquer__bot-title {
+    margin: 41px 5px;
+}
+
+.tutoriels-basic__content .basic-comment-fabriquer__user-name {
+    margin-top: 10px;
+}
+
+.tutoriels-basic__content .comment-fabriquer__bot-item {
+    max-width: 390px;
+    min-height: 272px;
+    border-radius: 20px;
+    margin: 50px auto 0;
+    position: relative;
+    padding: 18px 22px 22px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tutoriels-basic__content .comment-fabriquer__bot-item:last-child {
+    margin-top: 80px;
+    margin-bottom: 37px;
+}
+
+.tutoriels-basic__content .bot-item__number {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid var(--dark-gray);
+    top: -10px;
+    left: -15px;
+    background: var(--bg-white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+.tutoriels-basic__content .bot-item__descr {
+    margin-left: 9px;
+}
+
+.tutoriels-basic__content .bot-item__wrap {
+    margin-top: 20px;
+}
+
+.tutoriels-basic__content .bot-item__img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tutoriels-basic__content .comment-fabriquer__bot-conseils {
+    margin: 80px 25px 0 55px;
+}
+
+.tutoriels-basic__content .comment-fabriquer__bot-title-conseils {
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--accent-color);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.tutoriels-basic__content .conseils-icon {
+    position: absolute;
+    left: -40px;
+}
+
+.tutoriels-basic__content .conseils__descr {
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+}
+
+.aside-block__basic .main-video__smaller-title {
+    margin-left: 0;
+}
+
+.aside-block__basic .most-viewed-main-video__item-wrap {
+    max-width: 352px;
+    min-height: 200px;
+    margin: 10px 0;
+}
+
+.aside-block__basic .most-viewed-main-video__item-bottom {
+    max-width: 330px;
+}
+
+.aside-block__basic .most-viewed__item-bottom-likes-wrap {
+    margin-right: 36px;
+}
+
+.aside-block__basic .most-viewed__item-bottom-icon_likes {
+    height: 16px;
+    cursor: pointer;
+}
+
+.aside-block__basic .most-viewed__item-bottom-icon_likes {
+    margin-right: 34px;
+}
+
+.aside-block__basic .most-viewed__item-bottom-icon_comments {
+    margin-right: 20px;
+}
+
+.aside-block__basic .recent-post-main-video__item-wrap {
+    max-width: 352px;
+}
+
+.aside-block__basic .recent-post__item-wrap {
+    margin: 5px 0;
+}
+
+.aside-block__basic .recent-post__item-wrap:first-child {
+    margin-top: 10px;
+}
+
+.tutoriels-basic__content .basic__most-viewed-main-video-wrap,
+.tutoriels-basic__content .basic__recent-post-wrap {
+    display: none;
+}
+
+/*   MEDIA   */
+
+/* 1200px */
+@media screen and (max-width: 1200px) {
+    .most-viewed__items-wrap {
+        justify-content: space-around;
+    }
+
+    .most-viewed__item-wrap {
+        margin: 10px 10px;
+    }
+
+    .recent-post__items-wrap {
+        justify-content: space-around;
+    }
+
+    .recent-post__item-wrap {
+        margin: 10px 10px;
+    }
+
+    .custom-arrow_coachs-prev  {
+        left: 30px;
+    }
+
+    .custom-arrow_coachs-next {
+        right: 30px;
+    }
+
+    .tutoriels-video__content {
+        max-width: 580px;
+        margin: 0 auto;
+    }
+
+    .main-video__wrap {
+        margin: 0;
+    }
+
+    .main-video__item-bottom {
+        max-width: 550px;
+    }
+
+    .main-video__item-bottom-bar-wrap {
+        width: 210px;
+    }
+
+    .main-video__item-bottom-bar-time {
+        left: 90px;
+    }
+
+    .section__aside-block {
+        max-width: 325px;
+        margin-left: 20px;
+    }
+
+    .section__aside-block .supplies-list__additionally {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+/* 992px */
+@media screen and (max-width: 992px) {
+    .diy-tutorials__wrap-subtitle-search,
+    .diy-tutorials__media-wrap,
+    .tutoriels-video__wrap {
+        flex-direction: column;
+    }
+
+    .diy-tutorials__video-wrap {
+        width: 100%;
+    }
+
+    .photos__items-wrap {
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    .photo__item-wrap {
+        max-width: 350px;
+    }
+
+    .photo__right {
+        width: 60%;
+    }
+
+    .tutoriels-video__content {
+        max-width: 680px;
+    }
+
+    .section__aside-block {
+        max-width: 100%;
+        margin: 30px auto auto auto;
+
+    }
+
+    .aside-block__basic {
+        max-width: 352px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .section__tutoriels-video .container,
+    .tutoriels-video__content {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .main-video__wrap,
+    .main-video__wrap:before,
+    .basic__wrap {
+        border-radius: 0;
+    }
+
+    .main-video__item-bottom {
+        padding-right: 9px;
+    }
+
+    .section__tutoriels-video .main-video__item-bottom-pause-wrap,
+    .section__tutoriels-video .main-video__item-bottom-range-wrap,
+    .comment-fabriquer__top-wrap .comment-fabriquer__wrap,
+    .comment-fabriquer__top-wrap .comment-fabriquer__question,
+    .section__aside-block {
+        display: none;
+    }
+
+    .section__tutoriels-video .comment-fabriquer {
+        margin-top: 0;
+        padding: 0 0 30px;
+        border-radius: 0;
+        min-height: 650px;
+        margin-bottom: 20px;
+    }
+
+    .comment-fabriquer__mid-wrap {
+        margin: 38px 38px 0;
+    }
+
+    .tutoriels-basic__content .comment-fabriquer__bot-conseils {
+        margin: 37px 35px 22px 55px;
+    }
+}
+
+/* 576px */
+@media screen and (max-width: 576px) {
+    .recent-post__right-bottom-read {
+        margin: 0 0 0 5px;
+    }
+
+    .recent-post__left {
+        margin-right: 10px;
+    }
+
+    .diy-tutorials__subtitle-selects {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    .diy-tutorials__search-wrap_tutos-filters,
+    .diy-tutorials__video-wrap,
+    .booking-coach__title {
+        display: none;
+    }
+
+    .diy-tutorials__video-wrap-mobile,
+    .comment-fabriquer__btn,
+    .tutoriels-video__content .comment-fabriquer__btn-bot,
+    .tutoriels-video__content .comment-fabriquer__question_sm,
+    .tutoriels-video__content .comment-fabriquer__wrap_sm,
+    .tutoriels-basic__content .basic__most-viewed-main-video-wrap,
+    .tutoriels-basic__content .basic__recent-post-wrap {
+        display: block;
+    }
+
+    .comment-fabriquer__wrap_sm .comment-fabriquer__top-level-text {
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .comment-fabriquer__wrap_sm .comment-fabriquer__top-level-icon {
+        height: 12px;
+    }
+
+    .section__tutoriels-video .comment-fabriquer__top-wrap {
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .comment-fabriquer__top-wrap_sm {
+        display: flex;
+        background: var(--bg-white-color);
+        min-height: 62px;
+        padding: 0 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-video__item-bottom {
+        max-width: 353px;
+    }
+
+    .tutoriels-video__content .main-video__smaller-title {
+        margin-bottom: 28px;
+    }
+
+    .tutoriels-video__content .diy-tutorials__most-viewed-main-video-wrap {
+        margin-bottom: 25px;
+    }
+
+    .tutoriels-video__content .most-viewed-main-video__item-wrap {
+        max-width: 302px;
+        min-height: 200px;
+        margin: 0;
+    }
+
+    .tutoriels-video__content .most-viewed-main-video__item-wrap:not(:last-child) {
+        display: none;
+    }
+
+    .tutoriels-video__content .most-viewed-main-video__item-bottom {
+        max-width: 280px;
+    }
+
+    .tutoriels-video__content .comment-fabriquer__btn-bot {
+        width: 300px;
+    }
+
+    .tutoriels-video__content .comment-fabriquer__btn-bot .supplies-list__purchase-btn-arrow {
+        margin-left: 15px;
+    }
+
+    .tutoriels-basic__content .basic__wrap {
+        min-height: 237px;
+    }
+
+    .basic__wrap .most-viewed__item-bottom-socials-wrap {
+        max-width: 235px;
+        min-height: 35px;
+    }
+
+    .tutoriels-basic__content .tutoriels-basic__top .most-viewed__item-bottom-icon_likes {
+        height: 16px;
+    }
+
+    .tutoriels-basic__content .tutoriels-basic__top .most-viewed__item-bottom-icon_comments {
+        height: 17px;
+    }
+
+    .tutoriels-basic__content .tutoriels-basic__top .most-viewed__item-bottom-likes-wrap, .tutoriels-basic__content .tutoriels-basic__top .most-viewed__item-bottom-comments-wrap {
+        align-items: center;
+    }
+
+    .tutoriels-basic__content .comment-fabriquer__question_sm {
+        margin-top: 15px;
+    }
+
+    .tutoriels-basic__content .comment-fabriquer__title-sm {
+        font-size: 15px;
+        color: var(--light-gray);
+        text-align: center;
+        margin-right: 30px;
+    }
+
+    .tutoriels-basic__content .comment-fabriquer__top-wrap {
+        justify-content: center;
+    }
+
+    .tutoriels-basic__content .comment-fabriquer__btn {
+        margin: 0 5px;
+    }
+
+    .tutoriels-basic__content .comment-fabriquer__top-wrap_sm {
+        align-items: baseline;
+    }
+
+    .tutoriels-basic__content .comment-fabriquer__bot-title {
+        margin: 27px 38px 25px;
+    }
+
+    .tutoriels-basic__content .comment-fabriquer__bot-item {
+        margin: 31px auto 0;
+        min-height: 209px;
+        padding: 14px 17px 16px;
+    }
+
+    .tutoriels-basic__content .comment-fabriquer__bot-item:first-child {
+        margin-top: 36px;
+    }
+
+    .tutoriels-basic__content .comment-fabriquer__bot-list {
+        padding: 0 38px;
+    }
+
+    .tutoriels-basic__content .bot-item__wrap {
+        margin-top: 15px;
+    }
+
+    .tutoriels-basic__content .bot-item__number {
+        width: 29px;
+        height: 29px;
+        left: -10px;
+    }
+
+    .tutoriels-basic__content .comment-fabriquer__bot-item:last-child {
+         margin-top: 0;
+         margin-bottom: 7px;
+    }
+
+    .tutoriels-basic__content .comment-fabriquer {
+        margin-bottom: 55px;
+    }
+
+    .tutoriels-basic__content .comment-fabriquer__bot-conseils {
+        margin: 37px 17px 22px 34px;
+    }
+
+    .tutoriels-basic__content .basic-most-viewed__item-bottom-likes-wrap_sm {
+        margin-right: 27px;
+    }
+
+    .tutoriels-basic__content .basic-most-viewed__item-bottom-icon_likes_sm {
+        margin-right: 23px;
+    }
+
+    .tutoriels-basic__content .basic-most-viewed__item-bottom-icon_comments_sm {
+        margin-right: 14px;
+    }
+}
+
+/*  375px   */
+@media screen and (width: 375px) {
+    .section__diy-tutorials_giftcard,
+    .section__diy-tutorials_template-job,
+    .section__diy-tutorials_remote {
+        padding-bottom: 0;
+    }
+
+    .section__diy-tutorials_remote,
+    .section__diy-tutorials_home {
+        padding-top: 0;
+    }
+
+    .section__diy-tutorials_giftcard .container,
+    .section__diy-tutorials_template-job .container,
+    .section__diy-tutorials_remote .container,
+    .section__diy-tutorials_tutos-blog .container,
+    .section__diy-tutorials_tutos-filters .container,
+    .section__diy-tutorials_home .container,
+    .section__diy-tutorials_coachs .container {
+        margin: 0;
+    }
+
+    .section__diy-tutorials_giftcard .section__title,
+    .section__diy-tutorials_giftcard .diy-tutorials-subtitle,
+    .section__diy-tutorials_giftcard .diy-tutorials__subtitle-descr,
+    .section__diy-tutorials_template-job .section__title,
+    .section__diy-tutorials_template-job .diy-tutorials-subtitle,
+    .section__diy-tutorials_template-job .diy-tutorials__subtitle-descr,
+    .section__diy-tutorials_remote .section__title,
+    .section__diy-tutorials_remote .diy-tutorials-subtitle,
+    .section__diy-tutorials_remote .diy-tutorials__subtitle-descr,
+    .section__diy-tutorials_tutos-blog .diy-tutorials__wrap-subtitle-search,
+    .section__diy-tutorials_home .section__title{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .section__diy-tutorials_home .diy-tutorials-subtitle,
+    .section__diy-tutorials_home .diy-tutorials__subtitle-descr,
+    .section__diy-tutorials_coachs .diy-tutorials__subtitle-descr,
+    .section__diy-tutorials_coachs .diy-tutorials-subtitle {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .most-viewed__title, .recent-post__title {
+        margin-left: 55px;
+    }
+
+    .section__diy-tutorials_tutos-filters .diy-tutorials__wrap-subtitle-search {
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+
+    .recent-post__items-wrap {
+        width: 100%;
+    }
+
+    .recent-post__item-wrap {
+        margin: 0;
+        max-width: unset;
+        width: 100%;
+    }
+
+    .recent-post__item-wrap:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .most-viewed__items-wrap {
+        margin: 0 20px;
+    }
+
+    .diy-tutorials__title_tutos-blog {
+        display: none;
+    }
+
+    .section__diy-tutorials_tutos-blog {
+        padding-top: 10px;
+    }
+
+    .diy-tutorials__subtitle-descr_tutos-blog {
+        margin-bottom: 30px;
+    }
+
+    .most-viewed__title,
+    .diy-tutorials__search-wrap_tutos-blog,
+    .section__diy-tutorials_home .diy-tutorials__subtitle-descr,
+    .section__diy-tutorials_coachs .diy-tutorials__subtitle-descr {
+        margin-bottom: 25px;
+    }
+
+    .diy-tutorials__most-viewed-wrap {
+        margin-bottom: 15px;
+    }
+
+    .section__diy-tutorials_tutos-filters {
+        padding-top: 30px;
+    }
+
+    .diy-tutorials__title_tutos-filters {
+        max-width: 280px;
+    }
+
+    .main-video__wrap {
+        min-height: 244px;
+    }
+}
+
+
+/* 320px */
+@media screen and (max-width: 320px) {
+
+    .recent-post__right-bottom-level-wrap {
+        margin-right: 10px;
+    }
+}

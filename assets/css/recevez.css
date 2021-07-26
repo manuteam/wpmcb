@@ -1,0 +1,103 @@
+.recevez__content-wrap {
+    display: flex;
+    justify-content: space-between;
+    background: var(--bg-white-color);
+    border-radius: 20px;
+    min-height: 145px;
+    padding: 40px 65px;
+    align-items: flex-end;
+}
+
+.recevez__info {
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.recevez__info-title {
+    color: var(--accent-color);
+}
+
+.recevez__info-descr {
+    color: var(--light-gray);
+}
+
+.recevez__input {
+    color: var(--dark-gray);
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Maax', 'Montserrat', sans-serif;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 15px;
+}
+
+.recevez__input:focus {
+    outline: none;
+}
+
+.recevez__btn {
+    margin: 0;
+}
+
+
+
+/*   MEDIA   */
+
+/* 1200px */
+@media screen and (max-width: 1200px) {
+
+    .recevez__content-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recevez__info {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .recevez__info-title {
+        margin-bottom: 30px;
+    }
+
+    .recevez__input-wrap {
+        margin-bottom: 30px;
+    }
+}
+
+/* 576px */
+@media screen and (max-width: 576px) {
+    .recevez__input {
+        max-width: 215px;
+    }
+}
+
+/* 375px */
+@media screen and (max-width: 375px) {
+    .section__recevez_tutos-filters,
+    .section__recevez_tutos-blog {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .recevez__content-wrap {
+        padding: 30px 30px 25px;
+    }
+
+    .recevez__info-title {
+        max-width: 230px;
+        margin: 0 auto 30px;
+    }
+
+    .recevez__info-descr {
+        font-size: 16px;
+        line-height: 19px;
+        color: var(--dark-gray);
+    }
+
+    .recevez__input-wrap {
+        margin-bottom: 35px;
+    }
+
+}
